@@ -1,0 +1,21 @@
+html {
+	min-height: 100%;
+}
+body {
+	background-image: url(../images/body-bg.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	min-height: 100%;
+	}
+#header {
+    margin-bottom: 0;
+	}
+/*.section-block {
+	background-image: url(../images/section-aircraft.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	}*/
