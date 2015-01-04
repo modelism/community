@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
   спільноти і ділитись своїми цікавими розробками.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://modelism.github.io"
-permalink: /:year/:title.html
+permalink: pretty
 
 # Build settings
 markdown: kramdown
