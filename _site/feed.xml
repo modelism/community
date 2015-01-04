@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Вітаємо Вас в github спільноті моделістів</title>
+    <description>Маємо за мету зібрати та впорядкувати матеріали щодо моделізму в різних його варяціях. Запрошуємо і Вас ставати активними учасниками спільноти і ділитись своїми цікавими розробками.
+</description>
+    <link>http://modelism.github.io</link>
+    <atom:link href="http://modelism.github.iofeed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 04 Jan 2015 16:27:27 +0200</pubDate>
+    <lastBuildDate>Sun, 04 Jan 2015 16:27:27 +0200</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>EDGE 540 EPP</title>
+        <description>Description EDGE 540 EPP</description>
+        <pubDate>Sun, 04 Jan 2015 04:20:34 +0200</pubDate>
+        <link>http://modelism.github.io/diy/diy-edge-540-epp.html</link>
+        <guid isPermaLink="true">http://modelism.github.io/diy/diy-edge-540-epp.html</guid>
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,14 @@
+# Site settings
+title: Вітаємо Вас в github спільноті моделістів
+email: gvizdyk@mail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Маємо за мету зібрати та впорядкувати матеріали
+  щодо моделізму в різних його варяціях.
+  Запрошуємо і Вас ставати активними учасниками
+  спільноти і ділитись своїми цікавими розробками.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://modelism.github.io"
+permalink: /:year/:title.html
+
+# Build settings
+markdown: kramdown

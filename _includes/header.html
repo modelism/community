@@ -1,0 +1,22 @@
+<!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
+<header id="header" class="navbar navbar-default navbar-static-top">
+  <div class="container">
+
+    <div class="navbar-header">
+      <a href="{{ site.url }}" class="navbar-brand">
+        <img alt="Brand" src="{{ site.url }}/images/logo.png" height="20" class="navbar-left"> Github Спільнота Моделістів
+      </a>
+    </div>
+
+    <nav class="navbar-default" role="navigation">
+      <ul class="nav navbar-nav">
+        {% for page in site.pages %}
+          {% if page.title %}
+          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+
+  </div>
+</header>
