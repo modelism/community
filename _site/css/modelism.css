@@ -2,8 +2,10 @@
     margin-bottom: 0;
     }
 #footer {
-    color: #333;
     margin-top: 3em;
+    }
+.footer-visual {
+    border-top: 1px solid #e7e7e7;
     padding: 2em 0 2.5em;
     }
 
