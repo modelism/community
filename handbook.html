@@ -16,19 +16,17 @@ permalink: /handbook/
     {% for post in site.posts %}
       {% if post.categories contains 'handbook' %}
         <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            {% if post.image %}
+          {% if post.image %}
+            <div class="thumbnail">
               <img src="{{ post.image | prepend: site.url }}" alt="{{ post.title }}">
-            {% endif %}
-            <div class="caption">
-              <h3>{{ post.title }}</h3>
-              <p>{{ post.description }}</p>
-              <p><a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-plane" aria-hidden="true"></span> Читати більше тут</a></p>
             </div>
+          {% endif %}
+          <div class="caption">
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.description }}</p>
+            <p><a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-plane" aria-hidden="true"></span> Читати більше тут</a></p>
           </div>
         </div>
       {% endif %}
     {% endfor %}
 </div>
-
-<!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->

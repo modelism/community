@@ -12,27 +12,27 @@ layout: default
         <div class="glyphicon-wrapper">
           <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
         </div>
-        <div class="caption">
-          <h3>Приєднатись до спільноти</h3>
-          <p>Щоб приєднатися до спільноти, будь ласка, <a target="_blank" href="https://github.com/modelism/modelism.github.io/issues/new?title=Please add me to the modelism&amp;body=Thank you"><strong>зробіть запит</strong></a>.<br /> <span class="small"><strong>Примітка:</strong> Щоб зробити запит на приєднання до спільноти Ви повинні мати обліковий запис GitHub, <a target="_blank" href="https://github.com/signup/free"><strong>безкоштовна реєстрація тут.</strong></a></span></p>
-        </div>
+      </div>
+      <div class="caption">
+        <h3>Приєднатись до спільноти</h3>
+        <p>Щоб приєднатися до спільноти, будь ласка, <a target="_blank" href="https://github.com/modelism/modelism.github.io/issues/new?title=Please add me to the modelism&amp;body=Thank you"><strong>зробіть запит</strong></a>.<br /> <span class="small"><strong>Примітка:</strong> Щоб зробити запит на приєднання до спільноти Ви повинні мати обліковий запис GitHub, <a target="_blank" href="https://github.com/signup/free"><strong>безкоштовна реєстрація тут.</strong></a></span></p>
       </div>
     </div>
 
     {% for page in site.pages limit:3 %}
     {% if page.categories contains 'index' %}
       <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-          {% if page.image %}
+        {% if page.image %}
+          <div class="thumbnail">
             <img src="{{ page.image | prepend: site.url }}" alt="{{ page.title }}">
-          {% endif %}
-          <div class="caption">
-            {% if page.title %}
-              <h3>{{ page.title }}</h3>
-            {% endif %}
-            <p>{{ page.description_meta }}</p>
-            <p><a href="{{ page.url | prepend: site.baseurl }}" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-plane" aria-hidden="true"></span> Читати більше...</a></p>
           </div>
+        {% endif %}
+        <div class="caption">
+          {% if page.title %}
+            <h3>{{ page.title }}</h3>
+          {% endif %}
+          <p>{{ page.description_meta }}</p>
+          <p><a href="{{ page.url | prepend: site.baseurl }}" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-plane" aria-hidden="true"></span> Читати більше...</a></p>
         </div>
       </div>
     {% endif %}
@@ -41,14 +41,12 @@ layout: default
     <div class="col-sm-6 col-md-3">
       <div class="thumbnail">
         <img src="{{ site.url }}/images/bg-issues.jpg" alt="Задачі, які потребують вирішення">
-        <div class="caption">
-          <h3>Задати питання</h3>
-          <p>Щоб задати питання, пропозицію, чи інше, будь ласка, <a target="_blank" href="https://github.com/modelism/modelism.github.io/issues/new"><strong>створіть запит</strong></a> або пишіть на <a href="mailto:{{ site.email }}">gvizdyk[at]gmail.com</a>.</p>
-          <p><a href="https://github.com/modelism/community/issues" target="_blank" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Переглянути всі запити</a></p>
-        </div>
+      </div>
+      <div class="caption">
+        <h3>Задати питання</h3>
+        <p>Щоб задати питання, пропозицію, чи інше, будь ласка, <a target="_blank" href="https://github.com/modelism/modelism.github.io/issues/new"><strong>створіть запит</strong></a> або пишіть на <a href="mailto:{{ site.email }}">gvizdyk[at]gmail.com</a>.</p>
+        <p><a href="https://github.com/modelism/community/issues" target="_blank" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Переглянути запити</a></p>
       </div>
     </div>
 
 </div>
-
-<!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->

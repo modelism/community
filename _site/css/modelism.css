@@ -1,40 +1,28 @@
-html {
-    min-height: 100%;
-    }
-body {
-    background-image: url(../images/body-bg.jpg);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    min-height: 100%;
-    }
 #header {
     margin-bottom: 0;
     }
-/*.section-block {
-    background-image: url(../images/section-aircraft.jpg);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    }*/
 #footer {
     color: #333;
     margin-top: 3em;
     padding: 2em 0 2.5em;
     }
 
-/* Layout */
+/* Global Navigation */
 #header .navbar-nav li a:hover,
 #header .navbar-nav .current a {
     background-color: #c9dff2;
+    }
+
+/* Layout */
+.thumbnail {
+    margin-bottom: 0;
     }
 .thumbnail .glyphicon-wrapper {
     text-align: center;
     }
 .thumbnail .glyphicon-wrapper .glyphicon {
     background-color: #444;
+    color: #fff;
     font-size: 5em;
     height: 168px;
     padding-top: 50px;
@@ -44,6 +32,9 @@ body {
 .thumbnail .glyphicon {
     margin: 0 5px 0 0;
     }
-.thumbnail h3 {
-    margin-top: 6px;
+.caption {
+    padding: 0 6px;
+    }
+.caption h3 {
+    margin-top: 10px;
     }
