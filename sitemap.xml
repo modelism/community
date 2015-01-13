@@ -26,6 +26,7 @@ layout: null
       {% else %}
         <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
       {% endif %}
+      <priority>0.5</priority>
     </url>
     {% endfor %}
 
