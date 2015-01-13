@@ -10,5 +10,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://modelism.github.io"
 permalink: none
 
+timezone: Europe/Kiev
+
 # Build settings
 markdown: kramdown
