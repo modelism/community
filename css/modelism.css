@@ -15,6 +15,11 @@
     background-color: #c9dff2;
     }
 
+/* Logo */
+#header .navbar-brand > img {
+    margin-right: 6px;
+    }
+
 /* Layout */
 .addthis_sharing_toolbox {
     margin: 0.5em 0;
