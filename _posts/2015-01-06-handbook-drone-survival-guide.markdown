@@ -4,7 +4,7 @@ title:  "Безпілотники: посібник з виживання"
 description: "Пропонуємо Вам ознайомитись з інструкцією щодо розпізнавання безпілотних літальних апаратів, а також захисту від них, яку створив і опублікував голландський дизайнер Рубен Патер."
 date:   2015-01-06 06:43:34
 categories: handbook
-image: /images/bg-aircraft.jpg
+image: /images/dsg.svg
 ---
 
 Для неслужбового користування.
@@ -13,7 +13,9 @@ Drone deployment U.S. Military
 
 Українська
 
-<img src="/images/dsg.svg" alt="Безпілотники: посібник з виживання" class="img-responsive">
+<a href="/images/dsg.svg" target="_blank">
+    <img src="/images/dsg.svg" alt="Безпілотники: посібник з виживання" class="img-responsive">
+</a>
 
 ## Спостереження за птахами 21 століття
 
