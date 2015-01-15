@@ -9,4 +9,4 @@ tags: 100, blade, e-flite, helicopter, Marco Cesena, mCP X BL, mcpx, відео
 
 На цьому відео Марко Чезена керує своїм **mCP X BL** літаючи на аеродромі і в саду.
 
-<iframe width="600" height="315" src="//www.youtube.com/embed/I4YJS1nUXw8" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/I4YJS1nUXw8" frameborder="0" allowfullscreen></iframe>
