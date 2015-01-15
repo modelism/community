@@ -14,3 +14,5 @@ timezone: Europe/Kiev
 
 # Build settings
 markdown: kramdown
+
+exclude: ['README.md']
