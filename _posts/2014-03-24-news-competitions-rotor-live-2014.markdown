@@ -24,8 +24,8 @@ tags: 2014, helicopter, Rotor Live, вертолітний спорт, віде�
 <iframe width="560" height="315" src="//www.youtube.com/embed/P-XNZYaWkPg" allowfullscreen></iframe>
 ^ Спільний політ Паскаля і Берта на Rotor Live 2014
 
-Офіційний сайт змагань Rotor Live 2014: [www.rotor-live.de][rotor-live-page]
-Офіційний сторінка змагань Rotor Live 2014 в Facebbok: [www.facebook.com/ROTORlive][rotor-live-facebook]
+* Офіційний сайт змагань Rotor Live 2014: [www.rotor-live.de][rotor-live-page]
+* Офіційний сторінка змагань Rotor Live 2014 в Facebbok: [www.facebook.com/ROTORlive][rotor-live-facebook]
 
 [rotor-live-page]: http://www.rotor-live.de/wp/
 [rotor-live-facebook]: https://www.facebook.com/ROTORlive
