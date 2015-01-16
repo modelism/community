@@ -5,7 +5,7 @@
   {% if post.image %}
   <div class="thumbnail">
   <a href="{{ post.url | prepend: site.baseurl }}" class="">
-    <img src="{{ post.image | prepend: site.url }}" alt="{{ post.title }}">
+    <img src="{{ post.image }}" alt="{{ post.title }}">
   </a>
   </div>
   {% endif %}
