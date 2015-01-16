@@ -48,3 +48,15 @@
 .caption h3 {
     margin-top: 10px;
     }
+
+/* Block News */
+.block-news {
+    margin-top: 2em;
+    }
+.news-item {
+    margin-bottom: 0.5em;
+    }
+.news-item h5 {
+    margin-bottom: 0;
+    font-weight: bold;
+    }
