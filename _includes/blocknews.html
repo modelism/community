@@ -3,7 +3,7 @@
 {% if post.categories contains 'news' %}
 <div class="news-item">
   <h4><a href="{{ post.url | prepend: site.baseurl }}" class="">{{ post.title }}</a></h4>
-  <p class="text-muted">{{ page.date | date: "%b %-d, %Y" }}</p>
+  <p class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</p>
   <p>{{ post.description }}</p>
 </div>
 {% endif %}
