@@ -2,7 +2,14 @@
 {% for post in site.posts limit:10 %}
 {% if post.categories contains 'news' %}
 <div class="news-item">
-  <h3><a href="{{ post.url | prepend: site.baseurl }}" class="">{{ post.title }}</a></h3>
+  {% if post.image %}
+  <div class="thumbnail">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="">
+    <img src="{{ post.image | prepend: site.url }}" alt="{{ post.title }}">
+  </a>
+  </div>
+  {% endif %}
+  <h4><a href="{{ post.url | prepend: site.baseurl }}" class="">{{ post.title }}</a></h4>
   <p>{{ post.description }}</p>
 </div>
 {% endif %}
