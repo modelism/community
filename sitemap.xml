@@ -21,11 +21,7 @@ layout: null
     {% for post in site.posts %}
     <url>
       <loc>http://modelism.github.io{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
+      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
       <priority>0.5</priority>
     </url>
     {% endfor %}
