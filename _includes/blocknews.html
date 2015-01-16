@@ -1,5 +1,5 @@
 <div class="block-news">
-{% for post in site.posts limit:10 %}
+{% for post in site.posts limit:5 %}
 {% if post.categories contains 'news' %}
 <div class="news-item">
   <h4><a href="{{ post.url | prepend: site.baseurl }}" class="">{{ post.title }}</a></h4>
