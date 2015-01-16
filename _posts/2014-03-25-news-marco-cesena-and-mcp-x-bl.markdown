@@ -5,6 +5,7 @@ description: "Відео на якому Марко Чезена керує св
 date:   2015-01-04 02:20:34
 categories: news rcheli
 tags: 100, blade, e-flite, helicopter, Marco Cesena, mCP X BL, mcpx, відео
+image: http://img.youtube.com/vi/I4YJS1nUXw8/0.jpg
 ---
 
 На цьому відео Марко Чезена керує своїм **mCP X BL** літаючи на аеродромі і в саду.
