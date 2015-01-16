@@ -2,9 +2,9 @@
 {% for post in site.posts limit:5 %}
 {% if post.categories contains 'news' %}
 <div class="news-item">
-  <h4><a href="{{ post.url | prepend: site.baseurl }}" class="">{{ post.title }}</a></h4>
-  <p class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</p>
-  <p>{{ post.description }}</p>
+  <h5><a href="{{ post.url | prepend: site.baseurl }}" class="">{{ post.title }}</a></h5>
+  <div class="text-muted small">{{ post.date | date: "%b %-d, %Y" }}</div>
+  <p class="small">{{ post.description }}</p>
 </div>
 {% endif %}
 {% endfor %}
