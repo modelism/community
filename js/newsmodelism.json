@@ -58,6 +58,14 @@ var jsonObject = {
 		    "categories":"News"
 		},
 		{
+		    "title":"Результаты Чемпионата Украины FAI F3С, F3N, F3/5 - HELINEXT 2014",
+		    "description":"27 сентября 2014 г. в Бортничах под Киевом прошел Чемпионат Украины FAI F3С, F3N, F3/5 - HELINEXT 2014.",
+		    "url":"http://www.heli-info.com/2014/09/fai-f3-f3n-f35-helinext-2014.html",
+		    "img":"http://3.bp.blogspot.com/-Ly9-rDzCMWA/VBsGwgxEj0I/AAAAAAAAEnM/2G8qKxRAqj8/s400/%D0%A5%D0%B5%D0%BB%D0%B8%D0%BD%D0%B5%D0%BA%D1%81%D1%822014.jpg",
+		    "published": "2014-09-27T10:58:00.000Z",
+		    "categories":"News"
+		},
+		{
 		    "title":"Фотографии Кубка Болгарии FAI F3C, F3N - HELINEXT 2014",
 		    "description":"20-21 сентября под Пловдивом состоялся Кубок Болгарии по радиоуправляемым моделям вертолетов. Организаторы мероприятия - Явор Йотов и Авиамодельный Клуб Пловдива - обеспечили спортсменам отличные условия для соревнований, общения и отдыха.",
 		    "url":"http://www.heli-info.com/2014/09/fai-f3c-f3n-helinext-2014_22.html",
