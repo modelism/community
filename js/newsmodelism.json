@@ -6,7 +6,7 @@ var jsonObject = {
 		    "description":"I need more lipo and wanted to try something lighter weight to see how the HCP100S will do. The Hobby King Nano-Tech 330mAh made for the Trex 150 touts 45-90c. Let’s see how it matches up to the HiSky HCP100S stock 450mAh 25c pack.",
 		    "url":"http://www.hacksmods.com/2015/01/quick-hisky-hcp100-lipo-comparsion/",
 		    "img":"http://www.hacksmods.com/wp-content/uploads/2015/01/hisky_hcp100s_lipo_versus_hobbyking_330mah_45c_trex_150_lipo.jpg",
-		    "published": "2015-01-18T05:50:00.000Z",
+		    "published": "2015-01-14T05:50:00.000Z",
 		    "categories":"Parts"
 		},
 		{
@@ -14,7 +14,7 @@ var jsonObject = {
 		    "description":"At CES 2015, Hubsan had a good presence and brought out their new line up. Many of us are familiar with the original Hubsan X4 and it’s rebrands such as the Traxxas QR-4…as well as the many, many clones that tries to mimic the form and function of the first Hubsan X4. That does say something about Hubsan’s design and engineering prowess.",
 		    "url":"http://www.hacksmods.com/2015/01/hubsan-x4-quad-plus-updates/",
 		    "img":"http://www.hacksmods.com/wp-content/uploads/2015/01/x4_107P_hacksmods.jpg",
-		    "published": "2015-01-18T05:58:00.000Z",
+		    "published": "2015-01-08T05:58:00.000Z",
 		    "categories":"Multicopters"
 		},
 		{
