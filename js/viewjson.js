@@ -6,6 +6,7 @@ $(document).ready(function(e) {
 
             var z = le[i].title + ' - ' + le[i].description;
             var t = le[i].title;
+            var de = le[i].description;
             var u = le[i].url;
             var im = le[i].img;
             var d = le[i].published;
@@ -32,7 +33,7 @@ $(document).ready(function(e) {
             var date = $("<small class='bg-info'></small>").text(day + '/' + mounth + '/' + year + ' - ' + c);
 
             var title = $("<h3 class='title'></h3>").append(link);
-            var desc = $("<p class='description'></p>").text(z);
+            var desc = $("<p class='description'></p>").text(de);
 
             var img = $("<img />").attr({
                 src: im,
