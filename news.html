@@ -1,0 +1,17 @@
+---
+layout: default
+title: "Новини"
+description: "Огляд свіжих новин моделізму з різних джерел."
+description_meta: "Огляд свіжих новин моделізму з різних джерел."
+date: 2015-01-21 10:10:04
+permalink: /news/
+---
+
+<h1>{{ page.title }}</h1>
+<p class="lead">{{ page.description }}</p>
+
+<div class="row" id="json-news"></div>
+
+<script type="text/javascript" src="{{ '/js/newsmodelism.json' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/js/viewjson.js' | prepend: site.baseurl }}"></script>
+
