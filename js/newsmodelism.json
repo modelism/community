@@ -34,6 +34,38 @@ var jsonObject = {
 		    "categories":"Multicopters"
 		},
 		{
+		    "title":"Официальный сайт Чемпионата Мира FAI F3C-F3N 2015",
+		    "description":"Начинает работу официальный сайт Чемпионата Мира FAI F3C-F3N 2015",
+		    "url":"http://www.heli-info.com/2014/11/fai-f3c-f3n-2015.html",
+		    "img":"http://3.bp.blogspot.com/-pCnjmqNXSy8/VF8ffJX8nwI/AAAAAAAAE6w/O62zJBZLEvY/s1600/2015_FAI_WCH_F3CN_AUSTRIA_Retina.png",
+		    "published": "2014-11-09T10:58:00.000Z",
+		    "categories":"News"
+		},
+		{
+		    "title":"Фотографии Кубка Беларуси FAI F3N, F3/5 - HELINEXT 2014",
+		    "description":"4 октября под Минском состоялись полеты Кубка Беларуси. Добрая, дружественная атмосфера, отличная погода и увлекательная спортивная борьба - все удалось на славу.",
+		    "url":"http://www.heli-info.com/2014/10/fai-f3n-f35-helinext-2014.html",
+		    "img":"http://4.bp.blogspot.com/-Url8HlZWi84/VDIcm4FxV3I/AAAAAAAAE2Y/ujbazIrLAaY/s300/IMG_5224.JPG",
+		    "published": "2014-10-06T10:58:00.000Z",
+		    "categories":"News"
+		},
+		{
+		    "title":"Фотографии Чемпионата Украины FAI F3С, F3N, F3/5 - HELINEXT 2014",
+		    "description":"Фотографии предоставлены участниками и гостями соревнований",
+		    "url":"http://www.heli-info.com/2014/09/fai-f3-f3n-f35-helinext-2014_28.html",
+		    "img":"http://4.bp.blogspot.com/-Bndtf-DRJqg/VC5EJLW8LZI/AAAAAAAAE2A/BtYlGiS6F4I/s300/10636755_10152785895104697_7732566127255088610_o.jpg",
+		    "published": "2014-09-28T10:58:00.000Z",
+		    "categories":"News"
+		},
+		{
+		    "title":"Фотографии Кубка Болгарии FAI F3C, F3N - HELINEXT 2014",
+		    "description":"20-21 сентября под Пловдивом состоялся Кубок Болгарии по радиоуправляемым моделям вертолетов. Организаторы мероприятия - Явор Йотов и Авиамодельный Клуб Пловдива - обеспечили спортсменам отличные условия для соревнований, общения и отдыха.",
+		    "url":"http://www.heli-info.com/2014/09/fai-f3c-f3n-helinext-2014_22.html",
+		    "img":"http://3.bp.blogspot.com/-PZUcRR6n0Uw/VCARkVxEQGI/AAAAAAAAEoY/cYrR77UexRk/s300/IMG_2741.JPG",
+		    "published": "2014-09-22T10:58:00.000Z",
+		    "categories":"News"
+		},
+		{
 		    "title":"Comparision Pictures Of HiSky HCP80 And Blade Nano CPX | HacksMods",
 		    "description":"Someone on RCG wanted photos of the two 80-class CP heli, so I took these quick photos for reference.",
 		    "url":"http://www.hacksmods.com/2013/05/comparision-pictures-of-hisky-fbl80-and-blade-nano-cpx/",
