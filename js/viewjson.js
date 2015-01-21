@@ -9,6 +9,8 @@ $(document).ready(function(e) {
             var u = le[i].url;
             var im = le[i].img;
             var d = le[i].published;
+            var c = le[i].categories;
+            
 
 			var dt = new Date(d);
             var day = dt.getDate()
@@ -22,12 +24,12 @@ $(document).ready(function(e) {
                 target: "_blank"
             }).text(t);
 
-            var lm = $("<a class='btn btn-primary'>Читати</a>").attr({
+            var lm = $("<a class='btn btn-primary'>Читати...</a>").attr({
                 href: u,
                 target: "_blank"
             });
 
-            var date = $("<small class='bg-info'></small>").text(day + '/' + mounth + '/' + year);
+            var date = $("<small class='bg-info'></small>").text(day + '/' + mounth + '/' + year + ' - ' + c);
 
             var title = $("<h3 class='title'></h3>").append(link);
             var desc = $("<p class='description'></p>").text(z);
