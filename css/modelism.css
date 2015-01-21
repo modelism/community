@@ -48,6 +48,11 @@
 .caption h3 {
     margin-top: 10px;
     }
+.caption small {
+    display: inline-block;
+    margin: -7px 0 6px;
+    padding: 3px;
+    }
 
 /* Block News */
 .block-news {
