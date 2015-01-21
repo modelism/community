@@ -27,7 +27,7 @@ $(document).ready(function(e) {
                 target: "_blank"
             });
 
-            var date = $("<small></small>").text(day + '/' + mounth + '/' + year);
+            var date = $("<small class='bg-info'></small>").text(day + '/' + mounth + '/' + year);
 
             var title = $("<h3 class='title'></h3>").append(link);
             var desc = $("<p class='description'></p>").text(z);
