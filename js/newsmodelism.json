@@ -5,7 +5,9 @@ var jsonObject = {
 	    	"title":"RC Multicopters",
 	    	"description":"What are RC multicopters? Learn about these fascinating radio control aircraft, and what they can do!",
 	    	"url":"http://www.rc-airplane-world.com/rc-multicopters.html",
-	    	"img":"http://www.rc-airplane-world.com/image-files/parrot-ar-drone.jpg"
+	    	"img":"http://www.rc-airplane-world.com/image-files/parrot-ar-drone.jpg",
+	    	"published": "2014-12-12T19:58:00.000Z",
+	    	"categories":"Multicopters"
 	    }
 	]
 }
