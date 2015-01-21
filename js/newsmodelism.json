@@ -32,6 +32,14 @@ var jsonObject = {
 		    "img":"http://www.rc-airplane-world.com/image-files/parrot-ar-drone.jpg",
 		    "published": "2014-12-12T19:58:00.000Z",
 		    "categories":"Multicopters"
+		},
+		{
+		    "title":"Comparision Pictures Of HiSky HCP80 And Blade Nano CPX | HacksMods",
+		    "description":"Someone on RCG wanted photos of the two 80-class CP heli, so I took these quick photos for reference.",
+		    "url":"http://www.hacksmods.com/2013/05/comparision-pictures-of-hisky-fbl80-and-blade-nano-cpx/",
+		    "img":"http://www.hacksmods.com/wp-content/uploads/2013/05/fbl80_versus_nano_cpx_comparision_sidebyside_front.jpg",
+		    "published": "2013-05-22T10:58:00.000Z",
+		    "categories":"Heli"
 		}
 	]
 }
