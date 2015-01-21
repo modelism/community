@@ -3,7 +3,7 @@ var jsonObject = {
 	[
 	    {
 	    	"title":"RC Multicopters",
-	    	"description":"Radio control aircraft come in many shapes, sizes and types and rc multicopters are a relatively new addition to the ever-growing list.",
+	    	"description":"What are RC multicopters? Learn about these fascinating radio control aircraft, and what they can do!",
 	    	"url":"http://www.rc-airplane-world.com/rc-multicopters.html",
 	    	"img":"http://www.rc-airplane-world.com/image-files/parrot-ar-drone.jpg"
 	    }
