@@ -17,9 +17,9 @@ App.controller("NewsListM", function($scope, $http, $filter) {
             return Math.ceil($scope.newslist.length / $scope.pageSize);
         };
         $scope.filterWIthSearch = function() {
-            var items = $filter('filter')($scope.newslist, search.categories);
+            var items = $filter('filter')($scope.newslist, $scope.search.categories);
             items = $filter('pagination')(items, $scope.curPage*$scope.pageSize);
-            items = $filter('limitTo')(items, pageSize);
+            items = $filter('limitTo')(items, $scope.pageSize);
             
             $scope.numberOfPages = Math.ceil(items.length / $scope.pageSize);
             return Math.ceil($scope.newslist.length / $scope.pageSize);
