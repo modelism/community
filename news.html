@@ -42,7 +42,7 @@ permalink: /news/
                                 {(nitem.title)}
                             </a>
                         </h3>
-                        <small class="bg-info">{(nitem.published)}</small>
+                        <small class="bg-info">{(nitem.published| date:'mediumDate')}</small>
                         <p class="description">{(nitem.description)}</p>
                         <a target="_blank" ng-href="{(nitem.url)}" class="btn btn-primary">Читати...</a>
                     </div>
