@@ -10,6 +10,7 @@ App.controller("NewsListM", function($scope, $http, $filter) {
     $scope.showData = function() {
         $scope.curPage = 0;
         $scope.pageSize = 9;
+        $scope.newslist = [];
         $http.get('/json/newsmodelism.json').then(function(res){
             $scope.newslist = res.data;
         });
@@ -17,7 +18,7 @@ App.controller("NewsListM", function($scope, $http, $filter) {
             return Math.ceil($scope.newslist.length / $scope.pageSize);
         };
         $scope.filterWIthSearch = function() {
-            var items = $filter('filter')($scope.newslist||[], ($scope.search||{}).categories||"");
+            var items = $filter('filter')($scope.newslist, ($scope.search||{}).categories||"");
             items = $filter('pagination')(items, $scope.curPage*$scope.pageSize);
             items = $filter('limitTo')(items, $scope.pageSize);
             
