@@ -19,8 +19,8 @@ App.controller("NewsListM", function($scope, $http, $filter) {
         };
         $scope.filterWIthSearch = function() {
             var items = $filter('filter')($scope.newslist, ($scope.search||{}).categories||"");
-            items = $filter('pagination')(items, $scope.curPage*$scope.pageSize);
             $scope.numberOfPages = Math.ceil(items.length / $scope.pageSize);
+            items = $filter('pagination')(items, $scope.curPage*$scope.pageSize);
             items = $filter('limitTo')(items, $scope.pageSize);
             return items;
         };
