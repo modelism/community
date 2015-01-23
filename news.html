@@ -10,8 +10,61 @@ permalink: /news/
 <h1>{{ page.title }}</h1>
 <p class="lead">{{ page.description }}</p>
 
-<div class="row" id="json-news"></div>
+<div class="container">
+<div class="row">
+<div ng-app="App">
+    <div ng-controller="NewsListM" ng-init="showData()">
 
-<script type="text/javascript" src="{{ '/js/newsmodelism.json' | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ '/js/viewjson.js' | prepend: site.baseurl }}"></script>
+        <div class="col-sm-6 col-md-2">
+            <form name="filterNews" id="filterNews">
+                <h4>Фільтр по категоріях</h4>
+                <div class="cat-item">
+                    <input value="cat-news" id="cat-news" type="checkbox" data-ng-model='search.categories' data-ng-true-value='News' data-ng-false-value=''>
+                    <label for="cat-news">News</label>
+                </div>
+                <div class="cat-item">
+                    <input value="cat-parts" id="cat-parts" type="checkbox" data-ng-model='search.categories' data-ng-true-value='Parts' data-ng-false-value=''>
+                    <label for="cat-parts">Parts</label>
+                </div>
+            </form>
+        </div>
 
+        <div class="news-item col-sm-6 col-md-10">
+
+            <div class="row">
+                <div class="news-item col-sm-6 col-md-4" ng-repeat="nitem in newslist | filter:search.categories | pagination:curPage*pageSize | limitTo:pageSize">
+                    <div class="thumbnail">
+                        <img alt="{(nitem.title)}" src="{(nitem.img)}">
+                    </div>
+                    <div class="caption">
+                        <h3 class="title">
+                            <a target="_blank" title="{(nitem.title)}" href="{(nitem.url)}">
+                                {(nitem.title)}
+                            </a>
+                        </h3>
+                        <small class="bg-info">{(nitem.published)}</small>
+                        <p class="description">{(nitem.description)}</p>
+                        <a target="_blank" href="{(nitem.url)}" class="btn btn-primary">Читати...</a>
+                    </div>
+                </div>
+            </div>
+
+            <nav>
+              <ul class="pager">
+                <li><button type="button" class="btn lead btn-primary btn-lg" ng-disabled="curPage == 0" ng-click="curPage=curPage-1">Previous</button></li>
+                <li class="lead">
+                    Page {(curPage + 1)} of {( numberOfPages() )}
+                </li>
+                <li><button type="button" class="btn btn-primary btn-lg" ng-disabled="curPage >= newslist.length/pageSize - 1" ng-click="curPage = curPage+1">Next</button></li>
+              </ul>
+            </nav>
+
+        </div>
+
+    </div>
+</div>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.js"></script>
+<script type="text/javascript" src="{{ "/js/app.js" | prepend: site.baseurl }}"></script>

@@ -68,3 +68,26 @@
     margin-bottom: 0;
     font-weight: bold;
     }
+
+/* Filter News*/
+#filterNews {
+    background: rgb(51, 122, 183);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    height: 200px;
+    margin: 0 0 0 -15px;
+    padding: 15px;
+    }
+#filterNews h4 {
+    margin-top: 0;
+    }
+
+/* Pager */
+.pager li {
+    display: inline-block;
+    vertical-align: middle;
+    }
+.pager li.lead {
+    margin: 0;
+    padding: 0 1em;
+    }
