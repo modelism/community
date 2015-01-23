@@ -23,7 +23,7 @@ App.controller("NewsListM", function($scope, $http, $filter) {
             items = $filter('limitTo')(items, $scope.pageSize);
             
             $scope.numberOfPages = Math.ceil(items.length / $scope.pageSize);
-            return Math.ceil($scope.newslist.length / $scope.pageSize);
+            return items;
         };
     };
 });
