@@ -1,5 +1,50 @@
 [
     {
+    	"title":"WLToys V977 Power Star X1",
+    	"description":"WLToys имеет в своём ассортименте небольших вертолётов, помещающихся на ладони и при этом умудряется продавать их за такие деньги, за котоые вы не найдёте лучшего соотношения цены/качества. Теперь представлен новый очень милый маленький вертолёт, управляемый изменением циклического шага лопастей.",
+    	"url":"http://heli.msk.ru/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F/wltoys-v977-power-star-x1",
+    	"img":"http://heli.msk.ru/sites/default/files/2_20.jpg",
+    	"published": "2015-01-22T05:50:00.000Z",
+    	"categories":"Helicopters",
+    	"domain":"доменна зона рф"
+    },
+    {
+    	"title":"Апгрейды Для Goblin 380",
+    	"description":"Представлены новые апгрейды для SAB Goblin 380.",
+    	"url":"http://heli.msk.ru/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F/%D0%B0%D0%BF%D0%B3%D1%80%D0%B5%D0%B9%D0%B4%D1%8B-%D0%B4%D0%BB%D1%8F-goblin-380",
+    	"img":"http://heli.msk.ru/sites/default/files/H0574-S.jpg",
+    	"published": "2015-01-20T05:50:00.000Z",
+    	"categories":"Parts",
+    	"domain":"доменна зона рф"
+    },
+    {
+    	"title":"Квадкоптер Skyartec Butterfly RTF",
+    	"description":"Когда я впервые услышал о квадкоптере, название которого переводится как «Бабочка», я представил себе милый небольшой игрушечный вертолетик, возможно, с капотом в виде бабочки. Но это лишь до тех пор, пока я не увидел видео обзор одной из таких моделей.",
+    	"url":"http://acerc.ru/blog/copter/4791.html",
+    	"img":"http://acerc.ru/uploads/images/00/02/69/2015/01/18/25cdd5db80.jpg",
+    	"published": "2015-01-18T05:50:00.000Z",
+    	"categories":"Multicopters",
+    	"domain":"доменна зона рф"
+    },
+    {
+    	"title":"Completely New Product Line from Thunder Power in 2015",
+    	"description":"Thunder Power RC has been the world-leader in Lithium Polymer (LiPo) battery power and charging solutions for a wide variety of RC, UAV/UAS, and other applications since 2003. New for 2015 are entirely revamped product lines of both air and surface batteries...",
+    	"url":"http://helipilotonline.com/completely-new-product-line-from-thunder-power-in-2015/",
+    	"img":"http://helipilotonline.com/wp-content/uploads/2015/01/NTP_10-590x407.jpg",
+    	"published": "2015-01-15T05:50:00.000Z",
+    	"categories":"Parts",
+    	"domain":""
+    },
+    {
+    	"title":"Анонсирован Комплект Крепления Для Быстрой Смены Батарей Goblin 380",
+    	"description":"Большой апгрейд у SAB Heli Devision, компания выпускает на рынок принципиально новый продукт - который кардинально меняет процесс смены батарей! Только представьте. Теперь нет необходимости возиться с липучками, резинками, соединять и разъединять коннекторы, которые к тому же достаточно тугие.",
+    	"url":"http://heli.msk.ru/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F/%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82-%D0%BA%D1%80%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE%D0%B9-%D1%81%D0%BC%D0%B5%D0%BD%D1%8B-%D0%B1%D0%B0%D1%82%D0%B0%D1%80%D0%B5%D0%B9-goblin-380",
+    	"img":"http://www.heli.msk.ru/sites/default/files/10931470_867033076650269_2852463311895083067_n.jpg",
+    	"published": "2015-01-14T05:50:00.000Z",
+    	"categories":"Parts",
+    	"domain":"доменна зона рф"
+    },
+    {
         "title":"Quick HiSky HCP100 LiPo Comparsion | HacksMods",
         "description":"I need more lipo and wanted to try something lighter weight to see how the HCP100S will do. The Hobby King Nano-Tech 330mAh made for the Trex 150 touts 45-90c. Let’s see how it matches up to the HiSky HCP100S stock 450mAh 25c pack.",
         "url":"http://www.hacksmods.com/2015/01/quick-hisky-hcp100-lipo-comparsion/",
@@ -8,12 +53,76 @@
         "categories":"Parts"
     },
     {
+    	"title":"Roban 700 AH-64D",
+    	"description":"Новый копийный вертолёт от компании Robans, Apache AH-64D, 700-го класса, является седьмым продуктом в их серии Super Scale и доступен для заказа. Кабина пилота, механика, силовая установка расположены в правильных местах, как и у оригинальных вертолётов, при этом поставляются в предсобранном виде.",
+    	"url":"http://heli.msk.ru/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F/roban-700-ah-64d",
+    	"img":"http://heli.msk.ru/sites/default/files/1_20.jpg",
+    	"published": "2015-01-13T05:50:00.000Z",
+    	"categories":"Helicopters",
+    	"domain":"доменна зона рф"
+    },
+    {
+    	"title":"WLToys V977 - Металлические Апгрейды",
+    	"description":"Как и обещал ранее, хочу рассказать о полученных металлических деталях для вертолета WLToys V977. Да, надо признаться, я разочарован. Начну по порядку.",
+    	"url":"http://heli.msk.ru/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F/wltoys-v977-%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%B0%D0%BF%D0%B3%D1%80%D0%B5%D0%B9%D0%B4%D1%8B",
+    	"img":"http://heli.msk.ru/sites/default/files/metal-swashplate-1.jpg",
+    	"published": "2015-01-12T05:50:00.000Z",
+    	"categories":"Parts",
+    	"domain":"доменна зона рф"
+    },
+    {
+    	"title":"DJI Phantom 2 Vision",
+    	"description":"Оригинальный Phantom от DJI стал очень успешным, и теперь компания-производитель решила выпустить новую улучшенную версию Phantom 2 Vision. Отметим, что Phantom 2 и Phantom 2 Vision, несмотря на не слишком значительные различия в названии, очень сильно отличаются друг от друга.",
+    	"url":"http://acerc.ru/blog/copter/4626.html",
+    	"img":"http://acerc.ru/uploads/images/00/02/69/2015/01/11/c3db94ac6d.jpg",
+    	"published": "2015-01-11T05:50:00.000Z",
+    	"categories":"Multicopters",
+    	"domain":"доменна зона рф"
+    },
+    {
+    	"title":"Heli-Professional SOXOS 800",
+    	"description":"Heli-Professional уже предложила вам популярные вертолёты Revolution 500 и Alien 600, а теперь они представили новую линейку профессиональных вертолётов SOXOS. В линейку входят вертолёты 600, 700 и 800-го класса, схожие конструктивно и предназначенные для агрессивного 3D.",
+    	"url":"http://heli.msk.ru/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F/heli-professional-soxos-800",
+    	"img":"http://heli.msk.ru/sites/default/files/1_18.jpg",
+    	"published": "2015-01-10T05:50:00.000Z",
+    	"categories":"Helicopters",
+    	"domain":"доменна зона рф"
+    },
+    {
+    	"title":"OXY Helicopters Поделились Новой Информацией",
+    	"description":"История Oxy достаточно долгая. Как и любой другой хороший проект, мы не начинали с планов производтсва или продаж. Кагда я начал думать о OXY3, даже имени не было. Это был только мой вертолёт, я разработал его с учётом опыта, накопленного мной при работе над многими нашими апгрейдами для небольших вертолётов, выпускавшихся под нашей маркой Lynx.",
+    	"url":"http://heli.msk.ru/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F/oxy-helicopters-%D0%BF%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D0%BB%D0%B8%D1%81%D1%8C-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B5%D0%B9",
+    	"img":"http://heli.msk.ru/sites/default/files/10479068_1530325360516904_3755273038730385875_n.jpg",
+    	"published": "2015-01-09T05:50:00.000Z",
+    	"categories":"Helicopters",
+    	"domain":"доменна зона рф"
+    },
+    {
         "title":"Hubsan X4 Quad Plus Updates | HacksMods",
         "description":"At CES 2015, Hubsan had a good presence and brought out their new line up. Many of us are familiar with the original Hubsan X4 and it’s rebrands such as the Traxxas QR-4…as well as the many, many clones that tries to mimic the form and function of the first Hubsan X4. That does say something about Hubsan’s design and engineering prowess.",
         "url":"http://www.hacksmods.com/2015/01/hubsan-x4-quad-plus-updates/",
         "img":"http://www.hacksmods.com/wp-content/uploads/2015/01/x4_107P_hacksmods.jpg",
         "published": "2015-01-08T05:58:00.000Z",
         "categories":"Multicopters"
+    },
+    {
+    	"title":"Обзор квада Heli-Max 1Si SLT 2.4GHz RTF",
+    	"description":"Благодаря своей доступности, функциям контроля за фактическим направлением и возвращением к пилоту, 1Si уже позволил многим моделистам попробовать себя в качестве пилота квадкоптера. В нем присутствует множество функций, которые можно найти только у гораздо более дорогих квадов, в том числе фото и видеосъемка в формате 720P HD.",
+    	"url":"http://acerc.ru/blog/copter/4625.html",
+    	"img":"http://acerc.ru/uploads/images/00/02/69/2015/01/04/d48b24d79b.jpg",
+    	"published": "2015-01-04T05:50:00.000Z",
+    	"categories":"Multicopters",
+    	"domain":"доменна зона рф"
+    },
+    
+    {
+    	"title":"Радиоуправляемый вертолетный бой GYRO-BATTLE с гироскопом.",
+    	"description":"Хочу рассказать про комнатный вертолетный бой на радиоуправлении модели GYRO-BATTLE. Для начала, как он выглядит изначально...",
+    	"url":"http://acerc.ru/blog/helis/4624.html",
+    	"img":"http://acerc.ru/uploads/images/00/06/05/2015/01/04/b521380f7c.jpg",
+    	"published": "2015-01-04T05:40:00.000Z",
+    	"categories":"Helicopters",
+    	"domain":"доменна зона рф"
     },
     {
         "title":"HiSky HCP100S BLHeli Brushless ESC | HacksMods",
