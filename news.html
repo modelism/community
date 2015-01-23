@@ -34,17 +34,17 @@ permalink: /news/
             <div class="row">
                 <div class="news-item col-sm-6 col-md-4" ng-repeat="nitem in filterWIthSearch()">
                     <div class="thumbnail">
-                        <img alt="{(nitem.title)}" src="{(nitem.img)}">
+                        <img ng-attr-alt="{(nitem.title)}" ng-src="{(nitem.img)}">
                     </div>
                     <div class="caption">
                         <h3 class="title">
-                            <a target="_blank" title="{(nitem.title)}" href="{(nitem.url)}">
+                            <a target="_blank" title="{(nitem.title)}" ng-href="{(nitem.url)}">
                                 {(nitem.title)}
                             </a>
                         </h3>
                         <small class="bg-info">{(nitem.published)}</small>
                         <p class="description">{(nitem.description)}</p>
-                        <a target="_blank" href="{(nitem.url)}" class="btn btn-primary">Читати...</a>
+                        <a target="_blank" ng-href="{(nitem.url)}" class="btn btn-primary">Читати...</a>
                     </div>
                 </div>
             </div>
