@@ -24,7 +24,7 @@ layout: default
       </div>
     </div>
 
-    {% for page in site.pages limit:3 %}
+    {% for page in site.pages %}
     {% if page.categories contains 'index' %}
       <div class="col-sm-6 col-md-3">
         {% if page.image %}
