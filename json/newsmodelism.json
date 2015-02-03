@@ -1,5 +1,14 @@
 [
     {
+        "title":"Обзор системы управления полетом Xaircraft SuperX",
+        "description":"Компания Xaircraft вышла на рынок со своей новой системой управления полетом, которая легко настраивается и проста в управлении.",
+        "url":"http://acerc.ru/blog/radio/4793.html",
+        "img":"http://acerc.ru/uploads/images/00/02/69/2015/02/01/bc4b874c6b.jpg",
+        "published": "2015-02-01T05:50:00.000Z",
+        "categories":"Multicopters",
+        "domain":"доменна зона рф"
+    },
+    {
         "title":"Новости проекта Deviation ",
         "description":"Проект Deviation последнее время совсем не развивается. Уж не знаю по какой причине, но основатель проекта PhracturedBlue перестал поддерживать свой репозиторий с исходными текстами прошивки.",
         "url":"http://mcheli.blogspot.com/2015/01/deviation-news.html",
@@ -16,6 +25,15 @@
         "published": "2015-01-26T05:50:00.000Z",
         "categories":"Helicopters",
         "domain":""
+    },
+    {
+        "title":"Обзор бесколлекторного мотора Avroto LIFT Series 3520 - 400KV",
+        "description":"Я заказал себе моторы Avroto LIFT Series 3520 400Kv. Открыв коробку, я увидел, что корпус мотора был завернут в защитную пленку, а все остальные — расфасованы по небольшим мешочкам. Сразу же после распаковки мотора, я понял, что у меня в руках довольно серьезный девайс...",
+        "url":"http://acerc.ru/blog/electric/4792.html",
+        "img":"http://acerc.ru/uploads/images/00/02/69/2015/01/25/5edb5a0849.jpg",
+        "published": "2015-01-25T05:50:00.000Z",
+        "categories":"Multicopters",
+        "domain":"доменна зона рф"
     },
     {
     	"title":"WLToys V977 Power Star X1",
