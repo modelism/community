@@ -1,5 +1,23 @@
 [
     {
+        "title":"Новости проекта Deviation ",
+        "description":"Проект Deviation последнее время совсем не развивается. Уж не знаю по какой причине, но основатель проекта PhracturedBlue перестал поддерживать свой репозиторий с исходными текстами прошивки.",
+        "url":"http://mcheli.blogspot.com/2015/01/deviation-news.html",
+        "img":"http://deviationtx.com/templates/devo/images/devi.png",
+        "published": "2015-01-08T05:50:00.000Z",
+        "categories":"Parts",
+        "domain":""
+    },
+    {
+        "title":"HiSky HCP80 V2 - обзор вертолета",
+        "description":"Вертолет HiSky HCP80 V2 попал ко мне не случайно. У меня уже была модель WLToys V933/HiSky HCP80 и мне было интересно сравнить обновленную версию с предыдущей.",
+        "url":"http://mcheli.blogspot.com/2015/01/hisky-hcp80-v2-review.html",
+        "img":"http://3.bp.blogspot.com/-nDlU9o8s2T4/VL6gjoiWYmI/AAAAAAAABf4/8uBOoElvtsU/s400/hcp80v2.jpg",
+        "published": "2015-01-26T05:50:00.000Z",
+        "categories":"Helicopters",
+        "domain":""
+    },
+    {
     	"title":"WLToys V977 Power Star X1",
     	"description":"WLToys имеет в своём ассортименте небольших вертолётов, помещающихся на ладони и при этом умудряется продавать их за такие деньги, за котоые вы не найдёте лучшего соотношения цены/качества. Теперь представлен новый очень милый маленький вертолёт, управляемый изменением циклического шага лопастей.",
     	"url":"http://heli.msk.ru/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F/wltoys-v977-power-star-x1",
@@ -25,6 +43,15 @@
     	"published": "2015-01-18T05:50:00.000Z",
     	"categories":"Multicopters",
     	"domain":"доменна зона рф"
+    },
+    {
+        "title":"HiSky HCP100S - методы управления ",
+        "description":"Компактный передатчик HiSky H-6 довольно приличного качества, достался мне вместе с вертолетом HiSky HCP80V2. Имеет все базовые функции, присущие современным передатчикам. Может быть использован как с вертолетами, так и с самолетами, есть память на 10 моделей и порт для симулятора.",
+        "url":"http://mcheli.blogspot.com/2015/01/hisky-hcp100s-remote-control.html",
+        "img":"http://4.bp.blogspot.com/-vWBIDLDMlk8/VLLYLEhfzPI/AAAAAAAABeM/dgDSOsNzdbw/s400/hisky-h-6.jpg",
+        "published": "2015-01-16T05:50:00.000Z",
+        "categories":"Transmitters",
+        "domain":""
     },
     {
     	"title":"Completely New Product Line from Thunder Power in 2015",
@@ -89,6 +116,15 @@
     	"domain":"доменна зона рф"
     },
     {
+        "title":"HiSky HCP100S - первые модификации ",
+        "description":"Недавно полученный  вертолет HiSky HCP100S я не рискнул поднимать в воздух без некоторых переделок.",
+        "url":"http://mcheli.blogspot.com/2015/01/hisky-hcp100s-first-mods.html",
+        "img":"http://4.bp.blogspot.com/-W2HYuAN4Tpo/VLA11-N3wDI/AAAAAAAABdE/p6OzII9_sn4/s400/tail-boom.jpg",
+        "published": "2015-01-09T05:50:00.000Z",
+        "categories":"Helicopters",
+        "domain":""
+    },
+    {
     	"title":"OXY Helicopters Поделились Новой Информацией",
     	"description":"История Oxy достаточно долгая. Как и любой другой хороший проект, мы не начинали с планов производтсва или продаж. Кагда я начал думать о OXY3, даже имени не было. Это был только мой вертолёт, я разработал его с учётом опыта, накопленного мной при работе над многими нашими апгрейдами для небольших вертолётов, выпускавшихся под нашей маркой Lynx.",
     	"url":"http://heli.msk.ru/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F/oxy-helicopters-%D0%BF%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D0%BB%D0%B8%D1%81%D1%8C-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B5%D0%B9",
@@ -104,6 +140,15 @@
         "img":"http://www.hacksmods.com/wp-content/uploads/2015/01/x4_107P_hacksmods.jpg",
         "published": "2015-01-08T05:58:00.000Z",
         "categories":"Multicopters"
+    },
+    {
+        "title":"HiSky HCP100S - обзор модели ",
+        "description":"Прямо под Новый Год, 31-го декабря, получил посылку с новым вертолетом HiSky HCP100S! Уже и не ожидал получить до Нового Года, а тут такой подарок! Все было упаковано очень добротно, даже коробка нигде не помялась, а содержимое и подавно осталось целым.",
+        "url":"http://mcheli.blogspot.com/2015/01/hisky-hcp100s-review.html",
+        "img":"http://2.bp.blogspot.com/-6d7F_WFIMS0/VKbt-rPEMXI/AAAAAAAABZk/r2QczynyV7k/s400/complect.jpg",
+        "published": "2015-01-06T05:50:00.000Z",
+        "categories":"Helicopters",
+        "domain":""
     },
     {
     	"title":"Обзор квада Heli-Max 1Si SLT 2.4GHz RTF",
