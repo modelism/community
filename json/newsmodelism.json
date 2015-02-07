@@ -1,11 +1,11 @@
 [
     {
         "title":"Joe Smith Flying the RedWing Extra Take 2",
-        "description":"",
+        "description":"YouTube",
         "url":"http://youtu.be/buTvsFAAmqk",
         "img":"http://img.youtube.com/vi/buTvsFAAmqk/0.jpg",
         "published": "2015-02-01T05:50:00.000Z",
-        "categories":"Video",
+        "categories":["Video","Aircraftflite"],
         "domain":""
     },
     {
@@ -186,7 +186,6 @@
     	"categories":"Multicopters",
     	"domain":"доменна зона рф"
     },
-
     {
     	"title":"Радиоуправляемый вертолетный бой GYRO-BATTLE с гироскопом.",
     	"description":"Хочу рассказать про комнатный вертолетный бой на радиоуправлении модели GYRO-BATTLE. Для начала, как он выглядит изначально...",
@@ -245,6 +244,15 @@
         "categories":"News"
     },
     {
+        "title":"Joe Smith Wingnuts noon demo 2014",
+        "description":"YouTube.",
+        "url":"http://youtu.be/4MYyEgNobOs",
+        "img":"http://img.youtube.com/vi/4MYyEgNobOs/0.jpg",
+        "published": "2014-09-21T05:50:00.000Z",
+        "categories":["Video","Aircraftflite"],
+        "domain":""
+    },
+    {
         "title":"Фотографии Кубка Болгарии FAI F3C, F3N - HELINEXT 2014",
         "description":"20-21 сентября под Пловдивом состоялся Кубок Болгарии по радиоуправляемым моделям вертолетов. Организаторы мероприятия - Явор Йотов и Авиамодельный Клуб Пловдива - обеспечили спортсменам отличные условия для соревнований, общения и отдыха.",
         "url":"http://www.heli-info.com/2014/09/fai-f3c-f3n-helinext-2014_22.html",
@@ -259,5 +267,14 @@
         "img":"http://www.hacksmods.com/wp-content/uploads/2013/05/fbl80_versus_nano_cpx_comparision_sidebyside_front.jpg",
         "published": "2013-05-22T10:58:00.000Z",
         "categories":"Heli"
+    },
+    {
+        "title":"Robbe Nine Eagles Sky Climber in Action",
+        "description":"YouTube. Indoor Extreme - No Risk, no Fun! Daniel Brüssow and Thomas Bahne unleashed.",
+        "url":"http://youtu.be/1tkXwcQ6QiA",
+        "img":"http://img.youtube.com/vi/1tkXwcQ6QiA/0.jpg",
+        "published": "2011-10-05T05:50:00.000Z",
+        "categories":["Video","Aircraftflite"],
+        "domain":""
     }
 ]
