@@ -15,21 +15,33 @@ permalink: /news/
 <div ng-app="App" ng-cloak>
     <div ng-controller="NewsListM" ng-init="showData()">
 
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-2 col-md-2">
             <form name="filterNews" id="filterNews">
                 <h4>Фільтр по категоріях</h4>
                 <div class="cat-item">
-                    <input value="cat-news" id="cat-news" type="checkbox" data-ng-model='search.categories' data-ng-true-value="'News'">
-                    <label for="cat-news">News</label>
+                    <input value="cat-news" id="cat-news" type="checkbox" data-ng-model='search.categories' data-ng-true-value="'Aircraft'">
+                    <label for="cat-news">Літаки</label>
+                </div>
+                <div class="cat-item">
+                    <input value="cat-news" id="cat-news" type="checkbox" data-ng-model='search.categories' data-ng-true-value="'Helicopters'">
+                    <label for="cat-news">Гелікоптери</label>
+                </div>
+                <div class="cat-item">
+                    <input value="cat-news" id="cat-news" type="checkbox" data-ng-model='search.categories' data-ng-true-value="'Multicopters'">
+                    <label for="cat-news">Мультикомптери</label>
+                </div>
+                <div class="cat-item">
+                    <input value="cat-news" id="cat-news" type="checkbox" data-ng-model='search.categories' data-ng-true-value="'Transmitters'">
+                    <label for="cat-news">Апаратура керування</label>
                 </div>
                 <div class="cat-item">
                     <input value="cat-parts" id="cat-parts" type="checkbox" data-ng-model='search.categories' data-ng-true-value="'Parts'">
-                    <label for="cat-parts">Parts</label>
+                    <label for="cat-parts">Периферія</label>
                 </div>
             </form>
         </div>
 
-        <div class="news-item col-sm-6 col-md-10">
+        <div class="news-item col-sm-10 col-md-10">
 
             <div class="row">
                 <div class="news-item col-sm-6 col-md-4" ng-repeat="nitem in filterWIthSearch()">
