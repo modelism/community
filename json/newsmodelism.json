@@ -1,5 +1,14 @@
 [
     {
+        "title":"Joe Smith Flying the RedWing Extra Take 2",
+        "description":"",
+        "url":"http://youtu.be/buTvsFAAmqk",
+        "img":"http://img.youtube.com/vi/buTvsFAAmqk/0.jpg",
+        "published": "2015-02-01T05:50:00.000Z",
+        "categories":"Video",
+        "domain":""
+    },
+    {
         "title":"Обзор системы управления полетом Xaircraft SuperX",
         "description":"Компания Xaircraft вышла на рынок со своей новой системой управления полетом, которая легко настраивается и проста в управлении.",
         "url":"http://acerc.ru/blog/radio/4793.html",
@@ -177,7 +186,7 @@
     	"categories":"Multicopters",
     	"domain":"доменна зона рф"
     },
-    
+
     {
     	"title":"Радиоуправляемый вертолетный бой GYRO-BATTLE с гироскопом.",
     	"description":"Хочу рассказать про комнатный вертолетный бой на радиоуправлении модели GYRO-BATTLE. Для начала, как он выглядит изначально...",
