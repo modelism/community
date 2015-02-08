@@ -9,6 +9,24 @@
         "domain":"доменна зона рф"
     },
     {
+        "title":"Make a simple whip antenna for 5.8Ghz- linear polorized FPV video",
+        "description":"It’s always been advised to use circular polarized antenna for FPV, such as skew planar (four-leaf) or cloverleaf antenna (three-leaf). Although they do allow better range and reception, there are situations where you are better off using simple linear polarized antenna.",
+        "url":"http://blog.oscarliang.net/make-simple-whip-antenna-5-8ghz-linear-polo/",
+        "img":"http://blog.oscarliang.net/wp-content/uploads/2015/02/dipole-antenna-inside-fpv-video-transmitter-5-8ghz-600x337.jpg",
+        "published":"2015-02-07T05:50:00.000Z",
+        "categories":["Parts","Multicopters"],
+        "domain":""
+    },
+    {
+        "title":"DIY Mini 5.8Ghz FPV Video Transmitter and 1g Camera – Micro Quadcopter TX5823",
+        "description":"More than a year ago, I made an attempt to build a DIY light weight FPV combo, consists of a FPV camera, video transmitter and antenna. I had comments saying it could have been lighter if there weren’t so many extra components. They were right, and as part of the FPV micro quadcopter project, I decided to re-build this mini video transmitter camera combo, and really try hard to keep the weight and size down.",
+        "url":"http://blog.oscarliang.net/diy-micro-fpv-video-transmitter-camera/",
+        "img":"http://blog.oscarliang.net/wp-content/uploads/2015/02/mini-fpv-transmitter-camera-combo-tx5823-1g-nano-camera-antenna-600x492.jpg",
+        "published":"2015-02-07T05:50:00.000Z",
+        "categories":["Parts","Multicopters"],
+        "domain":""
+    },
+    {
         "title":"Mikado обновила Logo 550SX",
         "description":"Компания Mikado объявила о выпуске новой версии вертолёта Logo 550SX.",
         "url":"http://heli.msk.ru/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F/mikado-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%B8%D0%BB%D0%B0-logo-550sx",
@@ -27,6 +45,15 @@
         "domain":"доменна зона рф"
     },
     {
+        "title":"How to Choose LIPO Battery Charger & Power Supply",
+        "description":"In this article we will look into how to choose LIPO battery charger, and hopefully it should give you some idea in picking the best LiPo charger for multicopters. When buying a LiPo battery charger...",
+        "url":"http://blog.oscarliang.net/choose-lipo-battery-charger-power-supply/",
+        "img":"http://blog.oscarliang.net/wp-content/uploads/2015/02/lipo-battery-charger-multiple-batteries.jpg",
+        "published":"2015-02-04T05:50:00.000Z",
+        "categories":"Parts",
+        "domain":""
+    },
+    {
         "title":"Joe Smith Flying the RedWing Extra Take 2",
         "description":"YouTube",
         "url":"http://youtu.be/buTvsFAAmqk",
@@ -43,6 +70,24 @@
         "published": "2015-02-01T05:50:00.000Z",
         "categories":"Multicopters",
         "domain":"доменна зона рф"
+    },
+    {
+        "title":"Where to mount ESC – Quadcopter Arms Or body – Multirotor RC",
+        "description":"A very frequently asked question is: Do you mount your ESCs on your quadcopter amrs or body? Personally I like to put the ESCs on the arms for various reasons, some people might disagree. Anyway I think it’s more or less a personal preference, here I will list the arguments for both sides....",
+        "url":"http://blog.oscarliang.net/mounting-esc-arms-body-quadcopter/",
+        "img":"http://blog.oscarliang.net/wp-content/uploads/2015/02/mounting-esc-body-quadcopter-600x450.jpg",
+        "published":"2015-02-01T05:50:00.000Z",
+        "categories":["Parts","Multicopters"],
+        "domain":""
+    },
+    {
+        "title":"FPV Camera Review – RunCam SKY2 800TVL SONY 960H Effio-V",
+        "description":"Received this 'RunCam SKY2 800TVL FPV Camera 1/3' SONY 960H Effio-V' from securitycamera2000.com. I was really excited to test it on my mini quad, only realized it’s too big to fit (Dimension: 38mm x 38mm). Anyway I made a comparison video with the Sony Super HAD 600TVL camera I have been using...",
+        "url":"http://blog.oscarliang.net/runcam-800tvl-sony-effio-v-fpv-camera/",
+        "img":"http://blog.oscarliang.net/wp-content/uploads/2015/01/Runcam-Effio-V-800TVL-box-fpv-camera-600x359.jpg",
+        "published":"2015-01-31T05:50:00.000Z",
+        "categories":"Parts",
+        "domain":""
     },
     {
         "title":"Nano QX Paper Canopy",
@@ -87,6 +132,24 @@
         "img":"http://3.bp.blogspot.com/-nDlU9o8s2T4/VL6gjoiWYmI/AAAAAAAABf4/8uBOoElvtsU/s400/hcp80v2.jpg",
         "published": "2015-01-26T05:50:00.000Z",
         "categories":"Helicopters",
+        "domain":""
+    },
+    {
+        "title":"PID controller 0, 1 and 2 in CleanFlight Explained – Part ONE",
+        "description":"I have been hearing people discussing 'PID controller 1' or  'PID controller 2' a lot recently, after they flashed CleanFlight on their Naze32 or CC3D, so what are these all about? Well, this is actually the new feature added in the flight controller firmware. This post is part of the CleanFlight Setup guide...",
+        "url":"http://blog.oscarliang.net/pid-controller-0-1-2-cleanflight/",
+        "img":"http://blog.oscarliang.net/wp-content/uploads/2015/01/cleanflight-pid-controller-0-1-2-new-feature.jpg",
+        "published":"2015-01-25T05:50:00.000Z",
+        "categories":["Parts","Multicopters"],
+        "domain":""
+    },
+    {
+        "title":"Cheap 250 Mini Quad Setup Recommendation",
+        "description":"I have been asked many time to recommend  a cheap setup for mini quad, so here it is! This cheap 250 mini quad setup is great for someone who just starting in this hobby. It’s purely based on the parts available on this 250 quadcopter parts list...",
+        "url":"http://blog.oscarliang.net/cheap-250-mini-quad-recommendation/",
+        "img":"http://blog.oscarliang.net/wp-content/uploads/2015/01/frame-porta-quad-mini-zippy-600x387.jpg",
+        "published":"2015-01-25T05:50:00.000Z",
+        "categories":["Parts","Multicopters"],
         "domain":""
     },
     {
@@ -144,6 +207,15 @@
     	"domain":"доменна зона рф"
     },
     {
+        "title":"2S Mini Quadcopter Re-build | Indoor FPV",
+        "description":"Everybody flying mini quad are pushing their speed limit, using more power motors and going up in LiPo battery cell count, 4S even 6S. I have a ZMR250 mini quad which runs on 4S, but when it comes to flying indoor it’s an absolute overkill...",
+        "url":"http://blog.oscarliang.net/2s-mini-quad-build-fpv/",
+        "img":"http://blog.oscarliang.net/wp-content/uploads/2015/01/2s-mini-quad-build-done-600x428.jpg",
+        "published":"2015-01-18T05:50:00.000Z",
+        "categories":["Parts","Multicopters"],
+        "domain":""
+    },
+    {
     	"title":"Квадкоптер Skyartec Butterfly RTF",
     	"description":"Когда я впервые услышал о квадкоптере, название которого переводится как «Бабочка», я представил себе милый небольшой игрушечный вертолетик, возможно, с капотом в виде бабочки. Но это лишь до тех пор, пока я не увидел видео обзор одной из таких моделей.",
     	"url":"http://acerc.ru/blog/copter/4791.html",
@@ -151,6 +223,24 @@
     	"published": "2015-01-18T05:50:00.000Z",
     	"categories":"Multicopters",
     	"domain":"доменна зона рф"
+    },
+    {
+        "title":"Setting up RGB LED on CleanFlight Naze32 – Colorful WS2811 WS2812 Strip",
+        "description":"CleanFlight supports RGB LED strip, which is really great. In this post I will show you how I setup and configure LEDs in Naze32 Cleanflight. Same should work for CC3D too...",
+        "url":"http://blog.oscarliang.net/setup-rgb-led-cleanflight/",
+        "img":"http://blog.oscarliang.net/wp-content/uploads/2015/01/cleanflight-led-blog-600x457.jpg",
+        "published":"2015-01-16T05:50:00.000Z",
+        "categories":["Parts","Multicopters"],
+        "domain":""
+    },
+    {
+        "title":"CleanFlight Setup Tuning Guide for Naze32 / CC3D",
+        "description":"Here are some useful tips to help you setup and configure CleanFlight on Naze32. If you have been using Baseflight, please jump and read “Migrating from BaseFlight” section first. If you are a complete new user...",
+        "url":"http://blog.oscarliang.net/cleanflight-naze32-setup/",
+        "img":"http://blog.oscarliang.net/wp-content/uploads/2015/01/cleanflight-naze32-600x592.jpg",
+        "published":"2015-01-16T05:50:00.000Z",
+        "categories":["Parts","Multicopters"],
+        "domain":""
     },
     {
         "title":"HiSky HCP100S - методы управления ",
@@ -206,6 +296,15 @@
     	"domain":"доменна зона рф"
     },
     {
+        "title":"How to Avoid Quadcopter Technical Issues (ESC, FC, Motor, FPV Camera)",
+        "description":"This article is for those who build quadcopters and other multicopters (AKA Drones to the outside world :) ). So long sotry short. I posted a compilation video of some of my quadcopter crashes in 2014, it was a mixture of hardware and pilot errors...",
+        "url":"http://blog.oscarliang.net/avoid-quadcopter-technical-issues/",
+        "img":"http://blog.oscarliang.net/wp-content/uploads/2014/06/burnt-esc-quadcopter-600x358.jpg",
+        "published":"2015-01-11T05:50:00.000Z",
+        "categories":["Parts","Multicopters"],
+        "domain":""
+    },
+    {
     	"title":"DJI Phantom 2 Vision",
     	"description":"Оригинальный Phantom от DJI стал очень успешным, и теперь компания-производитель решила выпустить новую улучшенную версию Phantom 2 Vision. Отметим, что Phantom 2 и Phantom 2 Vision, несмотря на не слишком значительные различия в названии, очень сильно отличаются друг от друга.",
     	"url":"http://acerc.ru/blog/copter/4626.html",
@@ -259,6 +358,15 @@
         "categories":"Multicopters"
     },
     {
+        "title":"Convert 30fps footage into 60fps Smooth Video using GoPro Flux | Quadcopter FPV",
+        "description":"I am very impressed by how well 60fps recording works in Youtube and Vimeo, a increasingly popular feature that comes with the new GoPro Hero 4 cameras and GoPro Hero 3+ Black edition...",
+        "url":"http://blog.oscarliang.net/turn-30fps-60fps-gopro-flux-quad-fpv/",
+        "img":"http://blog.oscarliang.net/wp-content/uploads/2015/01/convert-30fps-to-60fps-gopro-studio-flux-video-quadcopter-fpv.jpg",
+        "published":"2015-01-06T05:50:00.000Z",
+        "categories":["Parts","Multicopters"],
+        "domain":""
+    },
+    {
         "title":"HiSky HCP100S - обзор модели ",
         "description":"Прямо под Новый Год, 31-го декабря, получил посылку с новым вертолетом HiSky HCP100S! Уже и не ожидал получить до Нового Года, а тут такой подарок! Все было упаковано очень добротно, даже коробка нигде не помялась, а содержимое и подавно осталось целым.",
         "url":"http://mcheli.blogspot.com/2015/01/hisky-hcp100s-review.html",
@@ -293,6 +401,24 @@
     	"published": "2015-01-04T05:40:00.000Z",
     	"categories":"Helicopters",
     	"domain":"доменна зона рф"
+    },
+    {
+        "title":"Complete 250 Mini Quad Parts List – FPV Quadcopter Component Choice",
+        "description":"Building your own quadcopter is fun but researching parts is laborious, so I have compiled a list of parts and brands for the 250 size mini quadcopter. It’s a great time saver and you won’t miss any amazing components for you mini quad...",
+        "url":"http://blog.oscarliang.net/250-mini-quad-part-list-fpv/",
+        "img":"http://blog.oscarliang.net/wp-content/uploads/2015/01/the-complete-250-mini-quad-part-list-feature2-600x454.jpg",
+        "published":"2015-01-02T05:50:00.000Z",
+        "categories":["Parts","Multicopters"],
+        "domain":""
+    },
+    {
+        "title":"Quadcopter Beginner Guide | Learn to Fly Drones",
+        "description":"This guide is intended to help quadcopter beginners get started, and learn to fly quadcopters and other multirotors. Multicopter flying is fun and it’s a relatively new and emerging hobby...",
+        "url":"http://blog.oscarliang.net/quadcopter-tutorial-how-to-fly-drone/",
+        "img":"http://blog.oscarliang.net/wp-content/uploads/2015/01/quadcopter-beginer-learn-to-fly-drone-600x345.jpg",
+        "published":"2015-01-01T05:50:00.000Z",
+        "categories":["Parts","Documentation"],
+        "domain":""
     },
     {
         "title":"HiSky HCP100S BLHeli Brushless ESC | HacksMods",
