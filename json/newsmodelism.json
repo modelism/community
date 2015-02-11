@@ -45,6 +45,15 @@
         "domain":"доменна зона рф"
     },
     {
+        "title":"Rocket Glider & Free Flight",
+        "description":"YouTube",
+        "url":"http://youtu.be/67fpOi5i9mM",
+        "img":"http://img.youtube.com/vi/67fpOi5i9mM/0.jpg",
+        "published": "2015-02-04T05:50:00.000Z",
+        "categories":["Video","Aircraftflite"],
+        "domain":""
+    },
+    {
         "title":"How to Choose LIPO Battery Charger & Power Supply",
         "description":"In this article we will look into how to choose LIPO battery charger, and hopefully it should give you some idea in picking the best LiPo charger for multicopters. When buying a LiPo battery charger...",
         "url":"http://blog.oscarliang.net/choose-lipo-battery-charger-power-supply/",
