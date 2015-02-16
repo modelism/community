@@ -2,9 +2,9 @@
     {
         "domain": "", 
         "description": "Micro Quadcopters (with brushed motors) are probably the first flying experience for many RC hobbyists, it\u2019s affordable, resistant to crashes and great fun flying it indoor. By adding FPV capability to it, it makes it an excellent FPV trainer, and it\u2019s extremely addictive. If you are new to this hobby, take a look at this beginner flying guide first.", 
+        "img": "http://blog.oscarliang.net/wp-content/uploads/2015/02/size-comparison-2-hand-cjmcu-micro-quad-600x359.jpg", 
         "title": "Build a FPV Micro Quadcopter CJMCU- Smallest Quad that runs CleanFlight!", 
         "url": "http://blog.oscarliang.net/build-fpv-micro-quadcopter-smallest-quad/", 
-        "image": "http://blog.oscarliang.net/wp-content/uploads/2015/02/size-comparison-2-hand-cjmcu-micro-quad-600x359.jpg", 
         "published": "2015-02-12T01:12:39+00:00", 
         "categories": "Multicopters"
     }, 
