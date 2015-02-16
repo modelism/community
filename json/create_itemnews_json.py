@@ -32,7 +32,7 @@ def li(ii):
 
 item = {
 	'title': ''.join(tit),
-	'image': ''.join(li(images)),
+	'img': ''.join(li(images)),
 	'description': ''.join(lp(paragrafs)),
 	'published': ''.join(pub),
     'url':url,
