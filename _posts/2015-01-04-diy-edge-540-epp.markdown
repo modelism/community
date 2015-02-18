@@ -7,6 +7,11 @@ categories: diy
 image: /images/bg-aircraft.jpg
 ---
 
+<section class="downloads">
+  <a class="zip_download_link" href="https://github.com/modelism/diy.aircraft.edge_540_epp/zipball/master">Download this project as a .zip file</a>
+  <a class="tar_download_link" href="https://github.com/modelism/diy.aircraft.edge_540_epp/tarball/master">Download this project as a tar.gz file</a>
+</section>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum nunc at ex commodo, vel ultrices sapien laoreet. Proin lobortis ornare faucibus. Duis tempor, sem ut cursus placerat, tortor lorem rhoncus purus, a maximus neque dui eu ex. Sed iaculis felis sit amet porttitor lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi pretium nec massa ornare varius. Donec condimentum arcu id maximus fermentum. Donec egestas libero sed libero vulputate, a scelerisque orci mollis. Etiam sed ullamcorper lacus, sed vulputate est. Quisque sed arcu vitae lacus pellentesque tempor.
 
 Proin sed vulputate arcu, nec facilisis lacus. Aliquam porttitor ullamcorper consequat. Nulla mattis turpis eget egestas eleifend. Nullam ornare facilisis elit, id fringilla sem tristique in.
