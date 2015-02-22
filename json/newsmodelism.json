@@ -1,12 +1,25 @@
 [
     {
         "domain": "", 
+        "description": "In the first build, we used the TX5823 and 1g camera. The result was okay, it was really small and light weight, my mini quad was able to carry it and still had good flight time. However the noise caused by the motors really upset this FPV setup. I tried making a power filter for it which didn\u2019t help. In the end I had to get a separate Lipo battery to power this 5.8Ghz FPV setup. Although the battery is light, only 5grams, but the weight of the FPV setup has increased to a total 12g! I wasn\u2019t particular happy with this.", 
+        "img": "http://blog.oscarliang.net/wp-content/uploads/2015/02/weight-600TVL-120degree-Wide-Angle-Super-Mini-FPV-Camera-with-MIC-600x469.jpg", 
+        "title": "DIY Light Weight Micro FPV Setup V2 \u2013 Transmitter Camera 5.8Ghz for Nano Quad \u2013 AltitudeRC", 
+        "url": "http://blog.oscarliang.net/diy-micro-fpv-setup-vtx-camera-v2/", 
+        "published": "2015-02-18T23:55:15.973232", 
+        "site": "http://blog.oscarliang.net", 
+        "categories": [
+            "Multicopters", 
+            "Parts"
+        ]
+    }, 
+    {
+        "domain": "", 
         "description": "Thunder Tiger has a new design on the way including their Raptor E700, and the Raptor E550. With more information on the horizon, its obvious there is a new look to these new machines. Designed by Simone Zunterer, this sleek look blends nice contrast color scheme from the nose to tail.", 
         "img": "http://www.rcheliresource.com/wp-content/uploads/2015/02/thumb-main-60-500x191.jpg", 
         "title": "New TT Raptors coming soon!", 
         "url": "http://www.rcheliresource.com/new-tt-raptors-coming-soon/", 
-        "published": "2015-02-19T23:32:24.352328", 
         "site": "http://www.rcheliresource.com/", 
+        "published": "2015-02-19T23:32:24.352328", 
         "categories": [
             "Helicopters", 
             "Parts"
