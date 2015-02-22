@@ -16,7 +16,7 @@ r = requests.get(url)
 tree = html.fromstring(r.text)
 
 n = url[0:20]
-print n
+# print n
 
 if n == "http://blog.oscarlia":
 	print "Site: http://blog.oscarliang.net \n"
@@ -46,12 +46,6 @@ elif n == "http://www.rchelires":
 else:
    print "Error"
 
-
-# if n != "http://helipilotonli":
-# 	pub = ''.join(tree.xpath(var_pub))
-# else:
-	# pub = var_pub
-
 tit = tree.xpath(var_tit)
 paragrafs = tree.xpath(var_paragrafs)
 images = tree.xpath(var_images)
@@ -72,9 +66,14 @@ def li(ii):
 		im = x.xpath('@src')
 		return im
 
+if images:
+	image = ''.join(li(images))
+else:
+	image = raw_input("Enter a img: ")
+
 item = {
 	'title': ''.join(tit),
-	'img': ''.join(li(images)),
+	'img': image,
 	'description': ''.join(lp(paragrafs)),
 	'published': pub,
     'url': url,
