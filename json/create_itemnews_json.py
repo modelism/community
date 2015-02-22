@@ -43,6 +43,14 @@ elif n == "http://www.rchelires":
 	var_paragrafs = "//*[@id='content']//div[contains(@class, 'post-content')]/p"
 	var_images = "//*[@id='content']//div[contains(@class, 'post-content')]//img"
 	site = "http://www.rcheliresource.com/"
+elif n == "http://droneport.com":
+	print "Site: http://droneport.com.ua \n"
+	print "Today is:", now_date.isoformat()
+	pub = raw_input("Enter a date: ")
+	var_tit = "//*[@id='main-content']//div[contains(@class, 'content')]/article//h1/span/text()"
+	var_paragrafs = "//*[@id='main-content']//div[contains(@class, 'content')]/article//div[contains(@class, 'entry')]/p"
+	var_images = "//*[@id='main-content']//div[contains(@class, 'content')]/article//div[contains(@class, 'entry')]//img"
+	site = "http://droneport.com.ua"
 else:
    print "Error"
 
