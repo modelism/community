@@ -1,12 +1,25 @@
 [
     {
         "domain": "", 
+        "description": "", 
+        "img": "http://2.bp.blogspot.com/-I7toMA3vM_g/VOD7lbmZCqI/AAAAAAAAE9c/qlnvA-6MxP4/s1600/FAI_2015_WCH%2BF3C-F3N%2BAUSTRIA-Bulletin-1-page-001.jpg", 
+        "title": "\n\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0411\u044e\u043b\u043b\u0435\u0442\u0435\u043d\u0438 \u0427\u0435\u043c\u043f\u0438\u043e\u043d\u0430\u0442\u0430 \u041c\u0438\u0440\u0430 FAI F3C-F3N 2015 \n", 
+        "url": "http://www.heli-info.com/2015/02/fai-f3c-f3n-2015.html", 
+        "published": "2015-02-15T00:54:29.708399", 
+        "site": "http://www.heli-info.com", 
+        "categories": [
+            "Helicopters", 
+            "News"
+        ]
+    }, 
+    {
+        "domain": "", 
         "description": "In the first build, we used the TX5823 and 1g camera. The result was okay, it was really small and light weight, my mini quad was able to carry it and still had good flight time. However the noise caused by the motors really upset this FPV setup. I tried making a power filter for it which didn\u2019t help. In the end I had to get a separate Lipo battery to power this 5.8Ghz FPV setup. Although the battery is light, only 5grams, but the weight of the FPV setup has increased to a total 12g! I wasn\u2019t particular happy with this.", 
         "img": "http://blog.oscarliang.net/wp-content/uploads/2015/02/weight-600TVL-120degree-Wide-Angle-Super-Mini-FPV-Camera-with-MIC-600x469.jpg", 
         "title": "DIY Light Weight Micro FPV Setup V2 \u2013 Transmitter Camera 5.8Ghz for Nano Quad \u2013 AltitudeRC", 
         "url": "http://blog.oscarliang.net/diy-micro-fpv-setup-vtx-camera-v2/", 
-        "published": "2015-02-18T23:55:15.973232", 
         "site": "http://blog.oscarliang.net", 
+        "published": "2015-02-18T23:55:15.973232", 
         "categories": [
             "Multicopters", 
             "Parts"
