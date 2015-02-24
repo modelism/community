@@ -42,6 +42,12 @@ elif n == "http://droneport.com":
 	var_paragrafs = "//*[@id='main-content']//div[contains(@class, 'content')]/article//div[contains(@class, 'entry')]/p"
 	var_images = "//*[@id='main-content']//div[contains(@class, 'content')]/article//div[contains(@class, 'entry')]//img"
 	site = "http://droneport.com.ua"
+elif n == "http://www.heli-info":
+	print "Site: http://www.heli-info.com \n"
+	var_tit = "//div[contains(@class, 'post')]//*[contains(@class, 'post-title')]/text()"
+	var_paragrafs = "//div[contains(@class, 'post')]//div[contains(@class, 'post-body')]//p"
+	var_images = "//div[contains(@class, 'post')]//div[contains(@class, 'post-body')]//img"
+	site = "http://www.heli-info.com"
 else:
    print "Error"
 
@@ -51,6 +57,11 @@ images = tree.xpath(var_images)
 
 print "Today is:", now_date.isoformat()
 pub = raw_input("Enter a date: ")
+if len(pub)>0:
+	pub = pub
+else:
+	pub = now_date.isoformat()
+
 print "Categories: 'Aircraftflite', 'Helicopters', 'Multicopters', 'Parts', 'Video'"
 cat = input("Enter a categories: ")
 
@@ -72,15 +83,22 @@ if images:
 else:
 	image = raw_input("Enter a img: ")
 
+
+if n == "http://www.heli-info":
+	desc = ''
+else:
+	desc = ''.join(lp(paragrafs))
+
+
 item = {
 	'title': ''.join(tit),
 	'img': image,
-	'description': ''.join(lp(paragrafs)),
+	'description': desc,
 	'published': pub,
     'url': url,
     'categories': cat,
     'domain':'',
-    'site': site 
+    'site': site
 }
 
 print "\n -- Preview item -- \n\n", json.dumps(item, indent=2)
