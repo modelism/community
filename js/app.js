@@ -19,7 +19,7 @@ App.controller("NewsListM", function($scope, $http, $filter) {
         };
         $scope.filterWIthSearch = function() {
             var items = $filter('filter')($scope.newslist, ($scope.search||{}).categories||"");
-            items = $filter('orderBy')(items, $scope.published, reverse);
+            items = $filter('orderBy')($scope.newslist, $scope.published, reverse);
             $scope.numberOfPages = Math.ceil(items.length / $scope.pageSize);
             if ($scope.numberOfPages<($scope.curPage+1)){
                 $scope.curPage = 0;
