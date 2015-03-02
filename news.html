@@ -47,20 +47,20 @@ permalink: /news/
 
         <div class="news-item col-sm-10 col-md-10">
 
-            <div class="row">
+            <div class="row" itemscope itemtype="http://schema.org/Article">
                 <div class="news-item col-sm-6 col-md-4" ng-repeat="nitem in filterWIthSearch()">
                     <div class="thumbnail">
-                        <img alt="{(nitem.title)}" ng-src="{(nitem.img)}">
+                        <img alt="{(nitem.title)}" ng-src="{(nitem.img)}" itemprop="image">
                     </div>
                     <div class="caption">
                         <h3 class="title">
-                            <a target="_blank" title="{(nitem.title)}" ng-href="{(nitem.url)}">
+                            <a target="_blank" title="{(nitem.title)}" ng-href="{(nitem.url)}" itemprop="name">
                                 {(nitem.title)}
                             </a>
                         </h3>
-                        <small class="bg-info">{(nitem.published| date:'mediumDate')}</small>
-                        <p class="description">{(nitem.description)}</p>
-                        <a target="_blank" ng-href="{(nitem.url)}" class="btn btn-primary">Читати...</a>
+                        <small class="bg-info" itemprop="datePublished" content="{(nitem.published| date:'yyyy-MM-dd')}">{(nitem.published| date:'mediumDate')}</small>
+                        <p class="description" itemprop="articleBody">{(nitem.description)}</p>
+                        <a target="_blank" ng-href="{(nitem.url)}" class="btn btn-primary" itemprop="url">Читати...</a>
                     </div>
                 </div>
             </div>
