@@ -1,0 +1,70 @@
+---
+layout: default
+---
+<div class="row">
+<div class="col-md-9">
+  <div class="post">
+    <div class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+    </div>
+    {% if page.image %}
+      <div class="thumbnail">
+        <img src="{{ page.image }}" alt="{{ page.title }}">
+      </div>
+    {% endif %}
+    <article class="post-content">
+      {{ content }}
+    </article>
+    <div class="addthis_sharing_toolbox"></div>
+  </div>
+</div>
+<div class="col-md-3">
+    <h3>
+      <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+      Дата:
+    </h3>
+    Дата початку: {{ page.event_starts | date: "%b %-d, %Y" }}<br />
+    Дата завершення: {{ page.event_ends | date: "%b %-d, %Y" }}<br />
+
+    {% if page.event_location %}
+      <h3>
+        <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+        Місце:
+      </h3>
+      {{ page.event_location }}
+    {% endif %}
+
+    {% if page.organization %}
+      <h3>
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        Організатори:
+      </h3>
+      {{ page.organization }}
+    {% endif %}
+
+    <h3>
+      <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+      Контакти:
+    </h3>
+    {% if page.contact_name %}
+      {{ page.contact_name }}<br />
+    {% endif %}
+    {% if page.contact_e-mail %}
+      {{ page.contact_e-mail }}<br />
+    {% endif %}
+    {% if page.contact_phone %}
+      {{ page.contact_phone }}<br />
+    {% endif %}
+    {% if page.event_url %}
+      {{ page.event_url }}<br />
+    {% endif %}
+
+    {% if page.event_register %}
+      <h3>
+        <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+        Участь:
+      </h3>
+      {{ page.event_register }}
+    {% endif %}
+</div>
+</div>
