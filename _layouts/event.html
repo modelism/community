@@ -44,10 +44,10 @@ layout: default
         {% if page.event_location_street %}
           <span itemprop="streetAddress">{{ page.event_location_street }}</span>,
         {% endif %}
-        {% if page.event_location_name %}
-          <span itemprop="name">{{ page.event_location_name }}</span>.
-        {% endif %}
       </span>
+      {% if page.event_location_name %}
+        <span itemprop="name">{{ page.event_location_name }}</span>.
+      {% endif %}
     </p>
       
     
