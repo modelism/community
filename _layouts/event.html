@@ -23,48 +23,65 @@ layout: default
       <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
       Дата:
     </h3>
-    Дата початку: {{ page.event_starts | date: "%b %-d, %Y" }}<br />
-    Дата завершення: {{ page.event_ends | date: "%b %-d, %Y" }}<br />
+    <p>
+      Дата початку: <span>{{ page.event_starts | date: "%b %-d, %Y" }}</span><br />
+      Дата завершення: <span>{{ page.event_ends | date: "%b %-d, %Y" }}</span>
+    </p>
 
-    {% if page.event_location %}
-      <h3>
-        <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-        Місце:
-      </h3>
-      {{ page.event_location }}
-    {% endif %}
+    <h3>
+      <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+      Місце:
+    </h3>
+    <p>
+      {% if page.event_location_country %}
+        <span>{{ page.event_location_country }}</span>
+      {% endif %}
+      {% if page.event_location_city %},
+        <span>{{ page.event_location_city }}</span>
+      {% endif %}
+      {% if page.event_location_street %},
+        <span>{{ page.event_location_street }}</span>
+      {% endif %}
+      {% if page.event_location_name %},
+        <span>{{ page.event_location_name }}</span>
+      {% endif %}
+    </p>
+      
+    
 
     {% if page.organization %}
       <h3>
         <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
         Організатори:
       </h3>
-      {{ page.organization }}
+      <p>{{ page.organization }}</p>
     {% endif %}
 
     <h3>
       <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
       Контакти:
     </h3>
-    {% if page.contact_name %}
-      {{ page.contact_name }}<br />
-    {% endif %}
-    {% if page.contact_e-mail %}
-      {{ page.contact_e-mail }}<br />
-    {% endif %}
-    {% if page.contact_phone %}
-      {{ page.contact_phone }}<br />
-    {% endif %}
-    {% if page.event_url %}
-      {{ page.event_url }}<br />
-    {% endif %}
-
+    <p>
+      {% if page.contact_name %}
+        {{ page.contact_name }}<br />
+      {% endif %}
+      {% if page.contact_e-mail %}
+        {{ page.contact_e-mail }}<br />
+      {% endif %}
+      {% if page.contact_phone %}
+        {{ page.contact_phone }}<br />
+      {% endif %}
+      {% if page.event_url %}
+        {{ page.event_url }}<br />
+      {% endif %}
+    </p>
+    
     {% if page.event_register %}
       <h3>
         <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
         Участь:
       </h3>
-      {{ page.event_register }}
+      <p>{{ page.event_register }}</p>
     {% endif %}
 </div>
 </div>
