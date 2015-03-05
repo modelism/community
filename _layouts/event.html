@@ -15,7 +15,7 @@ layout: default
     <article itemprop="description" class="post-content">
       {{ content }}
     </article>
-    <p itemprop="url">{{ page.url | prepend: site.url }}</p>
+    <p><a href="{{ page.url | prepend: site.url }}" itemprop="url">{{ page.url | prepend: site.url }}</a></p>
     <div class="addthis_sharing_toolbox"></div>
   </div>
 </div>
