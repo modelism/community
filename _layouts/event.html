@@ -1,18 +1,18 @@
 ---
 layout: default
 ---
-<div class="row">
+<div itemscope itemtype="http://schema.org/Event" class="row">
 <div class="col-md-9">
   <div class="post">
     <div class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
+      <h1 itemprop="name" class="post-title">{{ page.title }}</h1>
     </div>
     {% if page.image %}
       <div class="thumbnail">
-        <img src="{{ page.image }}" alt="{{ page.title }}">
+        <img itemprop="image" src="{{ page.image }}" alt="{{ page.title }}">
       </div>
     {% endif %}
-    <article class="post-content">
+    <article itemprop="description" class="post-content">
       {{ content }}
     </article>
     <div class="addthis_sharing_toolbox"></div>
@@ -24,7 +24,7 @@ layout: default
       Дата:
     </h3>
     <p>
-      Дата початку: <span>{{ page.event_starts | date: "%b %-d, %Y" }}</span><br />
+      Дата початку: <span itemprop="startDate" content="2015-01-15">{{ page.event_starts | date: "%b %-d, %Y" }}</span><br />
       Дата завершення: <span>{{ page.event_ends | date: "%b %-d, %Y" }}</span>
     </p>
 
@@ -32,19 +32,21 @@ layout: default
       <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
       Місце:
     </h3>
-    <p>
-      {% if page.event_location_country %}
-        <span>{{ page.event_location_country }}</span>,
-      {% endif %}
-      {% if page.event_location_city %}
-        <span>{{ page.event_location_city }}</span>,
-      {% endif %}
-      {% if page.event_location_street %}
-        <span>{{ page.event_location_street }}</span>,
-      {% endif %}
-      {% if page.event_location_name %}
-        <span>{{ page.event_location_name }}</span>.
-      {% endif %}
+    <p itemprop="location" itemscope itemtype="http://schema.org/Place">
+      <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        {% if page.event_location_country %}
+          <span itemprop="addressCountry">{{ page.event_location_country }}</span>,
+        {% endif %}
+        {% if page.event_location_city %}
+          <span itemprop="addressLocality">{{ page.event_location_city }}</span>,
+        {% endif %}
+        {% if page.event_location_street %}
+          <span itemprop="streetAddress">{{ page.event_location_street }}</span>,
+        {% endif %}
+        {% if page.event_location_name %}
+          <span itemprop="name">{{ page.event_location_name }}</span>.
+        {% endif %}
+      </span>
     </p>
       
     
@@ -54,7 +56,9 @@ layout: default
         <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
         Організатори:
       </h3>
-      <p>{{ page.organization }}</p>
+      <p itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">{{ page.organization }}</span>
+      </p>
     {% endif %}
 
     <h3>
