@@ -34,16 +34,16 @@ layout: default
     </h3>
     <p>
       {% if page.event_location_country %}
-        <span>{{ page.event_location_country }}</span>
+        <span>{{ page.event_location_country }}</span>,
       {% endif %}
       {% if page.event_location_city %}
-        ,<span>{{ page.event_location_city }}</span>
+        <span>{{ page.event_location_city }}</span>,
       {% endif %}
       {% if page.event_location_street %},
-        <span>{{ page.event_location_street }}</span>
+        <span>{{ page.event_location_street }}</span>,
       {% endif %}
       {% if page.event_location_name %},
-        <span>{{ page.event_location_name }}</span>
+        <span>{{ page.event_location_name }}</span>.
       {% endif %}
     </p>
       
