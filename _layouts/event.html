@@ -49,8 +49,6 @@ layout: default
         <span itemprop="name">{{ page.event_location_name }}</span>.
       {% endif %}
     </p>
-      
-    
 
     {% if page.organization %}
       <h3>
@@ -86,7 +84,9 @@ layout: default
         <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
         Участь:
       </h3>
-      <p>{{ page.event_register }}</p>
+      <p itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        <span itemprop="price">{{ page.event_register }}</span>
+      </p>
     {% endif %}
 </div>
 </div>
