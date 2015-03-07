@@ -19,7 +19,7 @@ image: http://1.bp.blogspot.com/-xCig9X944TY/VPeQvB9jYTI/AAAAAAAAEBk/H94VXLA2tIY
 categories: events
 ---
 
-15 січня о 18.00 в <strong>робо кафе</strong> відбудеться зустріч hardware розробників на тему квадрокоптери.
+15 січня о 18.00 в **робо кафе** відбудеться зустріч hardware розробників на тему квадрокоптери.
 
 На зустрічі Ви познайомитись:
 
