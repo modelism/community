@@ -36,6 +36,9 @@
 .thumbnail {
     margin-bottom: 0;
     }
+.thumbnail img {
+    width: 100%;
+    }
 .thumbnail .glyphicon-wrapper {
     text-align: center;
     }
