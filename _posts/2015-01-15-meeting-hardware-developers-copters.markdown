@@ -17,6 +17,7 @@ contact_phone: +380984205030
 event_register: "Участь безкоштовна, реєстрація обов'язкова."
 image: http://1.bp.blogspot.com/-xCig9X944TY/VPeQvB9jYTI/AAAAAAAAEBk/H94VXLA2tIY/s1600/meeting-hardware-developers-copters.jpg
 categories: events
+status: published
 ---
 
 15 січня о 18.00 в **робо кафе** відбудеться зустріч hardware розробників на тему квадрокоптери.
