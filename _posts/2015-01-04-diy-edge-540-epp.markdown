@@ -3,6 +3,7 @@ layout: post
 title:  "EDGE 540 EPP"
 description: "Description EDGE 540 EPP"
 date:   2015-01-04 02:20:34
+status: published
 categories: diy
 image: /images/bg-aircraft.jpg
 ---
