@@ -36,6 +36,9 @@
 .thumbnail {
     margin-bottom: 0;
     }
+.event-item .thumbnail {
+    margin-bottom: 1em;
+    }
 .thumbnail img {
     width: 100%;
     }
