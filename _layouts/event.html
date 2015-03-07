@@ -75,7 +75,7 @@ layout: default
         {{ page.contact_phone }}<br />
       {% endif %}
       {% if page.event_url %}
-        {{ page.event_url }}<br />
+        <a href="{{ page.event_url }}" title="{{ page.title }}" target="_blank">{{ page.event_url }}</a>
       {% endif %}
     </p>
     
