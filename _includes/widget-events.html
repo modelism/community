@@ -1,0 +1,36 @@
+{% for post in site.posts limit:5 %}
+{% if post.categories contains 'events' %}
+<div class="widget-events">
+  <div itemscope itemtype="http://schema.org/Event" class="event-item">
+    {% if post.image %}
+      <div class="thumbnail">
+        <img itemprop="image" src="{{ post.image }}" alt="{{ post.title }}">
+      </div>
+    {% endif %}
+    <h4 itemprop="name" class="post-title">{{ post.title }}</h4>
+    <a href="{{ post.url | prepend: site.url }}" itemprop="url">{{ post.url | prepend: site.url }}</a>
+    <p>
+      Дата початку: <strong itemprop="startDate" content="{{ post.event_starts | date_to_xmlschema }}">{{ post.event_starts | date_to_long_string }}</strong><br />
+      Дата завершення: <strong itemprop="endDate" content="{{ post.event_ends | date_to_xmlschema }}">{{ post.event_ends | date_to_long_string }}</strong>
+    </p>
+    <p itemprop="location" itemscope itemtype="http://schema.org/Place">
+      <strong>Місце:</strong>
+      <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        {% if post.event_location_country %}
+          <span itemprop="addressCountry">{{ post.event_location_country }}</span>,
+        {% endif %}
+        {% if post.event_location_city %}
+          <span itemprop="addressLocality">{{ post.event_location_city }}</span>,
+        {% endif %}
+        {% if post.event_location_street %}
+          <span itemprop="streetAddress">{{ post.event_location_street }}</span>,
+        {% endif %}
+      </span>
+      {% if post.event_location_name %}
+        <span itemprop="name">{{ post.event_location_name }}</span>.
+      {% endif %}
+    </p>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
