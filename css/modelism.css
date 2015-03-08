@@ -88,6 +88,9 @@
 .widget-events .event-item {
     margin-bottom: 1em;
     }
+.widget-events .thumbnail {
+    margin-bottom: 0;
+    }
 
 /* Filter News*/
 #filterNews {
