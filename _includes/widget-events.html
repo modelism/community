@@ -8,7 +8,6 @@
       </div>
     {% endif %}
     <h4 itemprop="name" class="post-title">{{ post.title }}</h4>
-    <a href="{{ post.url | prepend: site.url }}" itemprop="url">{{ post.url | prepend: site.url }}</a>
     <p>
       Дата початку: <strong itemprop="startDate" content="{{ post.event_starts | date_to_xmlschema }}">{{ post.event_starts | date_to_long_string }}</strong><br />
       Дата завершення: <strong itemprop="endDate" content="{{ post.event_ends | date_to_xmlschema }}">{{ post.event_ends | date_to_long_string }}</strong>
@@ -30,6 +29,7 @@
         <span itemprop="name">{{ post.event_location_name }}</span>.
       {% endif %}
     </p>
+    <p><a href="{{ post.url | prepend: site.url }}" title="{{ post.title }}" class="btn btn-primary" role="button" itemprop="url">Читати більше...</a></p>
   </div>
 </div>
 {% endif %}
