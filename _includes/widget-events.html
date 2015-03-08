@@ -1,6 +1,6 @@
+<div class="widget-events">
 {% for post in site.posts limit:3 %}
 {% if post.categories contains 'events' %}
-<div class="widget-events">
   <div itemscope itemtype="http://schema.org/Event" class="event-item">
     {% if post.image %}
       <div class="thumbnail">
@@ -31,6 +31,6 @@
     </p>
     <p><a href="{{ post.url | prepend: site.url }}" title="{{ post.title }}" class="btn btn-primary" role="button" itemprop="url">Читати більше...</a></p>
   </div>
-</div>
 {% endif %}
 {% endfor %}
+</div>
