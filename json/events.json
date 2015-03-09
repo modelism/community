@@ -1,0 +1,34 @@
+[
+  {
+      "title": "Міжнародний чемпіонат з екстремального пілотажу XFC 2015",
+      "description": "Futaba Extreme Flight Championships (XFC). Чемпіонат, спонсорований корпорацією Futaba, традиційно збирає провідних пілотів по 3D пілотажу вертольотів і літаків з усього світу. Змагання проходитимуть у Мансі штат Індіана США.",
+      "event_location_country": "Сполучені Штати Америки",
+      "event_location_city": "Штат Індіана",
+      "event_location_street": "5161 E Memorial Dr, Muncie, IN 47302",
+      "event_location_name": "Academy of Model Aeronautics",
+      "event_starts": "2015-06-12T08:00:00+0200",
+      "event_ends": "2015-06-14T10:00:00+0200",
+      "url": "/events/xfc-extreme-flight-championship-2015.html",
+      "image": "http://3.bp.blogspot.com/-pxkMZ9raeDY/VPtweMcuEBI/AAAAAAAAECE/tRbcDSNCh4E/s1600/xfc-extreme-flight-championship.jpg",
+      "categories": [
+        "Aircraftflite",
+        "Helicopters"
+      ]
+  },
+  {
+      "title": "Зустріч в R0b0 Cafe розробників квадрокоптерів",
+      "description": "Заплановано виступ: Сергія Канюхи, який розповість про види квадрокоптерів; Михайло Добуш та Артем Бордюга представлять власноруч зібраний квадрокоптер; Тарас Куркута розповість про можливості польоту; Антон Луцишин розповість про комлектуюxі до квадрокоптерів; Ростилава Пасічника, який розповість про наземну платформу. Окрім цього усі учасники події зможуть особисто поспілкуватись із розробниками, налагодити вигідні зв'язки у спільній співпраці, використати наробки товаришів, обмінятись досвідом!",
+      "event_location_country": "Україна",
+      "event_location_city": "м. Львів",
+      "event_location_street": "вул. Федьковича 60а",
+      "event_location_name": "Технопарк",
+      "event_starts": "2015-01-15T18:00:00+0200",
+      "event_ends": "2015-01-15T21:00:00+0200",
+      "url": "/events/meeting-hardware-developers-copters.html",
+      "image": "http://1.bp.blogspot.com/-xCig9X944TY/VPeQvB9jYTI/AAAAAAAAEBk/H94VXLA2tIY/s1600/meeting-hardware-developers-copters.jpg",
+      "categories": [
+        "Aircraftflite",
+        "Multicopters"
+      ]
+  }
+]
