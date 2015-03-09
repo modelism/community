@@ -7,8 +7,8 @@ event_location_country: "Україна"
 event_location_city: "м. Львів"
 event_location_street: "вул. Федьковича 60а"
 event_location_name: "Технопарк"
-event_starts: 2015-01-15T18:00:00+02:00
-event_ends: 2015-01-15T21:00:00+02:00
+event_starts: 2015-01-15T18:00:00+0200
+event_ends: 2015-01-15T21:00:00+0200
 event_url:
 organization: "Lviv Startup Club, R0b0 Cafe"
 contact_name: "Роксолана Винар"

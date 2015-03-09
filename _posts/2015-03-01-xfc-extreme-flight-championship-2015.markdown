@@ -7,8 +7,8 @@ event_location_country: "Сполучені Штати Америки"
 event_location_city: "Штат Індіана"
 event_location_street: "5161 E Memorial Dr, Muncie, IN 47302"
 event_location_name: "Academy of Model Aeronautics"
-event_starts: 2015-06-12T08:00:00+02:00
-event_ends: 2015-06-14T10:00:00+02:00
+event_starts: 2015-06-12T08:00:00+0200
+event_ends: 2015-06-14T10:00:00+0200
 event_url: http://www.xfc-rc.com/
 organization:
 contact_name: "Frank Noll Jr."
@@ -33,19 +33,19 @@ All Times are approximate:
 
 **Thursday, June 11th** (Qualification and Practice Day) <br />
 9:00 	Last Chance qualifying (LQC) for entry into the XFC
- 
+
 **Friday, June 12th**
 8:00 	XFC Known Rounds <br />
 11:00-5:00 	XFC Unknown & Smack Rounds <br />
 Open Flying @ Stage Center Site
- 
+
 **Saturday, June 13th**
 8:00 am 	XFC Known Rounds <br />
 11:00-5:00 	XFC Unknown & Smack Rounds <br />
 5:00-dusk 	Open flying/practice (main site) <br />
 Dusk 	Night Fly/Fireworks show <br />
 Open Flying @ Stage Center Site
- 
+
 **Sunday, June 14th**
 FINALS DAY <br />
 8:00 	XFC Known Round (top 7 competitors) <br />
