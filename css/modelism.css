@@ -86,10 +86,13 @@
 
 /* Widget Events*/
 .widget-events .event-item {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     }
 .widget-events .thumbnail {
     margin-bottom: 0;
+    }
+.widget-events .post-title {
+    margin: 0.5em 0;
     }
 
 /* Filter News*/
