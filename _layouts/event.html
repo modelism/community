@@ -44,7 +44,7 @@ layout: default
           {% when '12' %}Грудня
         {% endcase %}
         {{ page.event_starts | date: "%Y" }},
-        {{ page.event_ends | date: "%H:%M, %z" }}    
+        {{ page.event_starts | date: "%H:%M, %z" }}    
       </strong><br />
       Завершення: 
       <strong itemprop="endDate" content="{{ page.event_ends | date_to_xmlschema }}">
