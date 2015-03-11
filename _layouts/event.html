@@ -25,7 +25,7 @@ layout: default
       Дата:
     </h3>
     <p>
-      Початку: 
+      Дата початку: 
       <strong itemprop="startDate" content="{{ page.event_starts | date_to_xmlschema }}">
         {% assign m = page.event_starts | date: "%-m" %}
         {{ page.event_starts | date: "%-d" }}
@@ -43,10 +43,10 @@ layout: default
           {% when '11' %}Листопада
           {% when '12' %}Грудня
         {% endcase %}
-        {{ page.event_starts | date: "%Y" }},
-        {{ page.event_starts | date: "%H:%M, %z" }}    
+        {{ page.event_starts | date: "%Y" }},<br />
+        o {{ page.event_starts | date: "%H:%M, %z" }}    
       </strong><br />
-      Завершення: 
+      Дата завершення: 
       <strong itemprop="endDate" content="{{ page.event_ends | date_to_xmlschema }}">
         {% assign m = page.event_ends | date: "%-m" %}
         {{ page.event_ends | date: "%-d" }}
@@ -64,8 +64,8 @@ layout: default
           {% when '11' %}Листопада
           {% when '12' %}Грудня
         {% endcase %}
-        {{ page.event_ends | date: "%Y" }},
-        {{ page.event_ends | date: "%H:%M, %z" }}
+        {{ page.event_ends | date: "%Y" }},<br />
+        o {{ page.event_ends | date: "%H:%M, %z" }}
       </strong>
     </p>
 
