@@ -30,18 +30,18 @@ layout: default
         {% assign m = page.event_starts | date: "%-m" %}
         {{ page.event_starts | date: "%-d" }}
         {% case m %}
-          {% when '1' %}Січня
-          {% when '2' %}Лютого
-          {% when '3' %}Березня
-          {% when '4' %}Квітня
-          {% when '5' %}Травня
-          {% when '6' %}Червня
-          {% when '7' %}Липня
-          {% when '8' %}Серпня
-          {% when '9' %}Вересня
-          {% when '10' %}Жовтня
-          {% when '11' %}Листопада
-          {% when '12' %}Грудня
+          {% when '1' %}січ.
+          {% when '2' %}лют.
+          {% when '3' %}бер.
+          {% when '4' %}квіт.
+          {% when '5' %}трав.
+          {% when '6' %}черв.
+          {% when '7' %}лип.
+          {% when '8' %}серп.
+          {% when '9' %}вер.
+          {% when '10' %}жовт.
+          {% when '11' %}лист.
+          {% when '12' %}груд.
         {% endcase %}
         {{ page.event_starts | date: "%Y" }}, o {{ page.event_starts | date: "%H:%M" }}    
       </strong><br />
@@ -50,18 +50,18 @@ layout: default
         {% assign m = page.event_ends | date: "%-m" %}
         {{ page.event_ends | date: "%-d" }}
         {% case m %}
-          {% when '1' %}Січня
-          {% when '2' %}Лютого
-          {% when '3' %}Березня
-          {% when '4' %}Квітня
-          {% when '5' %}Травня
-          {% when '6' %}Червня
-          {% when '7' %}Липня
-          {% when '8' %}Серпня
-          {% when '9' %}Вересня
-          {% when '10' %}Жовтня
-          {% when '11' %}Листопада
-          {% when '12' %}Грудня
+          {% when '1' %}січ.
+          {% when '2' %}лют.
+          {% when '3' %}бер.
+          {% when '4' %}квіт.
+          {% when '5' %}трав.
+          {% when '6' %}черв.
+          {% when '7' %}лип.
+          {% when '8' %}серп.
+          {% when '9' %}вер.
+          {% when '10' %}жовт.
+          {% when '11' %}лист.
+          {% when '12' %}груд.
         {% endcase %}
         {{ page.event_ends | date: "%Y" }}, o {{ page.event_ends | date: "%H:%M" }}
       </strong>
