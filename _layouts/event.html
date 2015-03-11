@@ -25,7 +25,7 @@ layout: default
       Дата:
     </h3>
     <p>
-      Дата початку: <strong itemprop="startDate" content="{{ page.event_starts | date_to_xmlschema }}">{{ page.event_starts | localize: date_to_long_string }}</strong><br />
+      Дата початку: <strong itemprop="startDate" content="{{ page.event_starts | date_to_xmlschema }}">{{ page.event_starts | localize: "%d %B, %Y" }}</strong><br />
       Дата завершення: <strong itemprop="endDate" content="{{ page.event_ends | date_to_xmlschema }}">{{ page.event_ends | localize: date_to_long_string }}</strong>
     </p>
 
