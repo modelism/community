@@ -63,8 +63,8 @@ layout: default
           {% when '11' %}Листопада
           {% when '12' %}Грудня
         {% endcase %}
-        {{ page.event_ends | date: "%Y" }}
-        {{ page.event_ends | date: "%h" }}
+        {{ page.event_ends | date: "%Y" }},
+        {{ page.event_ends | date: "%H:%M %p" }}
       </strong>
     </p>
 
