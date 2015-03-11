@@ -64,7 +64,7 @@ layout: default
           {% when '12' %}Грудня
         {% endcase %}
         {{ page.event_ends | date: "%Y" }},
-        {{ page.event_ends | date: "%H:%M %p, %X, %Z" }}
+        {{ page.event_ends | date: "%H:%M, %z" }}
       </strong>
     </p>
 
