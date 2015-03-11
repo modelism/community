@@ -25,28 +25,46 @@ layout: default
       Дата:
     </h3>
     <p>
-      Дата початку: <strong itemprop="startDate" content="{{ page.event_starts | date_to_xmlschema }}">
-      <!--{{ page.event_starts | localize: "%d %B, %Y" }}-->
-      <!-- Whitespace added for readability -->
-      {% assign m = page.event_starts | date: "%-m" %}
-      {{ page.event_starts | date: "%-d" }}
-      {% case m %}
-        {% when '1' %}Січня
-        {% when '2' %}Лютого
-        {% when '3' %}Березня
-        {% when '4' %}Квітня
-        {% when '5' %}Травня
-        {% when '6' %}Червня
-        {% when '7' %}Липня
-        {% when '8' %}Серпня
-        {% when '9' %}Вересня
-        {% when '10' %}Жовтня
-        {% when '11' %}Листопада
-        {% when '12' %}Грудня
-      {% endcase %}
-      {{ page.event_starts | date: "%Y" }}        
+      Дата початку: 
+      <strong itemprop="startDate" content="{{ page.event_starts | date_to_xmlschema }}">
+        {% assign m = page.event_starts | date: "%-m" %}
+        {{ page.event_starts | date: "%-d" }}
+        {% case m %}
+          {% when '1' %}Січня
+          {% when '2' %}Лютого
+          {% when '3' %}Березня
+          {% when '4' %}Квітня
+          {% when '5' %}Травня
+          {% when '6' %}Червня
+          {% when '7' %}Липня
+          {% when '8' %}Серпня
+          {% when '9' %}Вересня
+          {% when '10' %}Жовтня
+          {% when '11' %}Листопада
+          {% when '12' %}Грудня
+        {% endcase %}
+        {{ page.event_starts | date: "%Y" }}        
       </strong><br />
-      Дата завершення: <strong itemprop="endDate" content="{{ page.event_ends | date_to_xmlschema }}">{{ page.event_ends | date_to_long_string }}</strong>
+      Дата завершення: 
+      <strong itemprop="endDate" content="{{ page.event_ends | date_to_xmlschema }}">
+        {% assign m = page.event_ends | date: "%-m" %}
+        {{ page.event_ends | date: "%-d" }}
+        {% case m %}
+          {% when '1' %}Січня
+          {% when '2' %}Лютого
+          {% when '3' %}Березня
+          {% when '4' %}Квітня
+          {% when '5' %}Травня
+          {% when '6' %}Червня
+          {% when '7' %}Липня
+          {% when '8' %}Серпня
+          {% when '9' %}Вересня
+          {% when '10' %}Жовтня
+          {% when '11' %}Листопада
+          {% when '12' %}Грудня
+        {% endcase %}
+        {{ page.event_ends | date: "%Y" }}
+      </strong>
     </p>
 
     <h3>
