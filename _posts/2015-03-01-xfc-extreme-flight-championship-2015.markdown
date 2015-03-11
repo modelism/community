@@ -8,7 +8,7 @@ event_location_city: "Штат Індіана"
 event_location_street: "5161 E Memorial Dr, Muncie, IN 47302"
 event_location_name: "Academy of Model Aeronautics"
 event_starts: 2015-06-12 08:00:00 +0300
-event_ends: 2015-03-14 10:00:00 +0300
+event_ends: 2015-06-14 10:00:00 +0300
 event_url: http://www.xfc-rc.com/
 organization:
 contact_name: "Frank Noll Jr."
