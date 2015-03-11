@@ -2,7 +2,7 @@
 layout: event
 title: "Міжнародний чемпіонат з екстремального пілотажу XFC 2015"
 description: "Futaba Extreme Flight Championships (XFC). Чемпіонат, спонсорований корпорацією Futaba, традиційно збирає провідних пілотів по 3D пілотажу вертольотів і літаків з усього світу. Змагання проходитимуть у Мансі штат Індіана США."
-date: 2015-03-01 19:00:00
+date: 2015-03-01T19:00:00+0200
 event_location_country: "Сполучені Штати Америки"
 event_location_city: "Штат Індіана"
 event_location_street: "5161 E Memorial Dr, Muncie, IN 47302"
