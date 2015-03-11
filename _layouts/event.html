@@ -43,8 +43,7 @@ layout: default
           {% when '11' %}Листопада
           {% when '12' %}Грудня
         {% endcase %}
-        {{ page.event_starts | date: "%Y" }},<br />
-        o {{ page.event_starts | date: "%H:%M" }}    
+        {{ page.event_starts | date: "%Y" }}, o {{ page.event_starts | date: "%H:%M" }}    
       </strong><br />
       Дата завершення: 
       <strong itemprop="endDate" content="{{ page.event_ends | date_to_xmlschema }}">
@@ -64,8 +63,7 @@ layout: default
           {% when '11' %}Листопада
           {% when '12' %}Грудня
         {% endcase %}
-        {{ page.event_ends | date: "%Y" }},<br />
-        o {{ page.event_ends | date: "%H:%M" }}
+        {{ page.event_ends | date: "%Y" }}, o {{ page.event_ends | date: "%H:%M" }}
       </strong>
     </p>
 
