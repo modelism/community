@@ -41,6 +41,7 @@ permalink: /events/
 
             <div class="row">
                 <div class="events-item col-sm-6 col-md-4" ng-repeat="eitem in filterWIthSearch()">
+                <div ng-class="{'past-event': dt > {(eitem.event_starts | date:'yyyyMMdd')} }">
                     <div class="thumbnail">
                         <img alt="{(eitem.title)}" ng-src="{(eitem.image)}">
                     </div>
@@ -65,6 +66,7 @@ permalink: /events/
                         </p>
                         <a ng-href="{(eitem.url)}" class="btn btn-primary" itemprop="url">Читати...</a>
                     </div>
+                </div>
                 </div>
             </div>
 

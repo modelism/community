@@ -8,6 +8,8 @@ App.config([
 
 App.controller("EventsListM", function($scope, $http, $filter) {
     $scope.showData = function() {
+        var today_date = new Date();
+        $scope.dt = $filter('date')(today_date, 'yyyyMMdd');
         $scope.curPage = 0;
         $scope.pageSize = 9;
         $scope.eventslist = [];
