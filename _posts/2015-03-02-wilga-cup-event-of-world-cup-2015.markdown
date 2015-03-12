@@ -11,7 +11,7 @@ event_starts: 2015-05-6 10:00:00 +0300
 event_ends: 2015-05-11 12:00:00 +0300
 event_url: http://f3j.in.ua/wilga-2015.html
 organization: "Команда 'Vladimir's Model', Харківська та Львівська обласні Федерації авіамодельного спорту, Авіамоделісти Харкова та Львова"
-contact_name:
+contact_name: "Льотне поле"
 contact_e-mail: "secretary@f3j.in.ua"
 contact_phone: "+38-057-760-3210"
 event_register: "Для реєстрації необхідно заповнити реєстраційну форму - http://f3j.in.ua/wilga-2015.html?#tab7"
