@@ -15,7 +15,7 @@ contact_name:
 contact_e-mail: "secretary@f3j.in.ua"
 contact_phone: "+38-057-760-3210"
 event_register: "Для реєстрації необхідно заповнити реєстраційну форму - http://f3j.in.ua/wilga-2015.html?#tab7"
-image: 
+image: http://1.bp.blogspot.com/-OvYrxJlWQFk/VQIB9vhFnPI/AAAAAAAAECY/ohbi8a3u_Xo/s1600/wilga_logo_lviv.png
 categories: events
 status: published
 priority: 0.7
