@@ -19,6 +19,10 @@ permalink: /events/
             <form name="filterNews" id="filterNews">
                 <h4>Фільтр по категоріях</h4>
                 <div class="cat-item">
+                    <input value="cat-sailplane" id="cat-sailplane" type="checkbox" data-ng-model='search.categories' data-ng-true-value="'Sailplane'">
+                    <label for="cat-sailplane">Планери</label>
+                </div>                
+                <div class="cat-item">
                     <input value="cat-aircraft" id="cat-aircraft" type="checkbox" data-ng-model='search.categories' data-ng-true-value="'Aircraftflite'">
                     <label for="cat-aircraft">Літаки</label>
                 </div>
