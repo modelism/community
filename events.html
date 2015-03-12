@@ -66,10 +66,23 @@ permalink: /events/
                               <span itemprop="addressLocality">{( eitem.event_location_city )}</span>,
                               <span itemprop="streetAddress">{( eitem.event_location_street )}</span>,
                           </span>
-                          <span itemprop="name">{( eitem.event_location_name )}</span>.
+                          <span>{( eitem.event_location_name )}</span>.
                         </p>
                         <a ng-href="{(eitem.url)}" class="btn btn-primary" itemprop="url">Читати...</a>
                     </div>
+                    <script type="application/ld+json">
+                        [{
+                          "@context" : "http://schema.org",
+                          "@type" : "Event",
+                          "name" : "{(eitem.title)}",
+                          "startDate" : "{(eitem.event_starts)}",
+                          "location" : { 
+                             "@type" : "Place",
+                             "name" : "{( eitem.event_location_name )}",
+                             "address" : "{( eitem.event_location_country )}, {( eitem.event_location_city )}, {( eitem.event_location_street )}"
+                          }
+                        }]
+                    </script>
                 </div>
                 </div>
             </div>
