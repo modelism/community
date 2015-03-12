@@ -66,5 +66,5 @@ keywords: "Кубок Вільга, F3J, F5J, F3K"
 **Зверніть увагу:** точні координати льотного поля можуть зміниться, про це буде повідомлено додатково (не пізніше 10 квітня) на сайті події - http://f3j.in.ua/wilga-2015.html?#tab8.
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.google.com/maps/d/embed?mid=zjs1az9n78iY.kPeJi17OjStQ"></iframe>
+    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2581.75582420099!2d23.827856999999998!3d49.677738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDQwJzM5LjkiTiAyM8KwNDknNDAuMyJF!5e0!3m2!1suk!2sua!4v1426198987842"></iframe>
 </div>
