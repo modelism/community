@@ -6,12 +6,12 @@ date: 2015-03-02 19:00:00 +0200
 event_location_country: "Україна"
 event_location_city: "Львівська область, Пустомитівський район, координати поля: 49.677901, 23.827825"
 event_location_street:
-event_location_name:
+event_location_name: "Льотне поле"
 event_starts: 2015-05-6 10:00:00 +0300
 event_ends: 2015-05-11 12:00:00 +0300
 event_url: http://f3j.in.ua/wilga-2015.html
 organization: "Команда 'Vladimir's Model', Харківська та Львівська обласні Федерації авіамодельного спорту, Авіамоделісти Харкова та Львова"
-contact_name: "Льотне поле"
+contact_name:
 contact_e-mail: "secretary@f3j.in.ua"
 contact_phone: "+38-057-760-3210"
 event_register: "Для реєстрації необхідно заповнити реєстраційну форму - http://f3j.in.ua/wilga-2015.html?#tab7"
