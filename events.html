@@ -45,19 +45,19 @@ permalink: /events/
 
             <div class="row">
                 <div class="events-item col-sm-6 col-md-4" ng-repeat="eitem in filterWIthSearch()">
-                <div ng-class="{'past-event': dt > {(eitem.event_starts | date:'yyyyMMdd')} }">
+                <div ng-class="{'past-event': dt > {(eitem.event_starts | date:'yyyyMMdd')} }" itemscope itemtype="http://schema.org/Event">
                     <div class="thumbnail">
-                        <img alt="{(eitem.title)}" ng-src="{(eitem.image)}">
+                        <img itemprop="image" alt="{(eitem.title)}" ng-src="{(eitem.image)}">
                     </div>
                     <div class="caption">
                         <h3 class="title">
-                            <a title="{(eitem.description)}" ng-href="{(eitem.url)}">
+                            <a itemprop="name" title="{(eitem.description)}" ng-href="{(eitem.url)}">
                                 {(eitem.title)}
                             </a>
                         </h3>
                         <p>
-                          Дата початку: <strong>{(eitem.event_starts| date:'mediumDate')}</strong><br />
-                          Дата завершення: <strong>{(eitem.event_ends| date:'mediumDate')}</strong>
+                          Дата початку: <strong itemprop="startDate" content="{(eitem.event_starts)}">{(eitem.event_starts| date:'mediumDate')}</strong><br />
+                          Дата завершення: <strong itemprop="endDate" content="{(eitem.event_ends)}">{(eitem.event_ends| date:'mediumDate')}</strong>
                         </p>
                         <p itemprop="location" itemscope itemtype="http://schema.org/Place">
                           <strong>Місце:</strong>
