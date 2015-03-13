@@ -1,12 +1,68 @@
 [
     {
         "domain": "", 
+        "description": "RunCam sent me their latest HD Camera, and I am fortunate to be one of the first users to review it. At the time it arrived, this action camera was still not released on the market, we don\u2019t even know what\u00a0the price is yet.", 
+        "img": "http://blog.oscarliang.net/wp-content/uploads/2015/03/Runcam-hd-camera-3-600x455.jpg", 
+        "title": "RunCam HD Camera | Mobius GoPro Alternative Recording FPV", 
+        "url": "http://blog.oscarliang.net/runcam-hd-camera-fpv-mobius-quadcopter/", 
+        "published": "2015-03-06T18:23:37.768720", 
+        "site": "http://blog.oscarliang.net", 
+        "categories": "Parts"
+    }, 
+    {
+        "domain": "", 
+        "description": "I have been using SimonK firmware on my Mini Quad Blue Series 12A ESC, they perform really well and I can\u2019t complain. But recently\u00a0Oneshot and Active Braking (damping light)\u00a0has been popular and I have been hearing all sorts of good things, but they\u00a0are only supported in BLHeli (V13.0) at the moment. So I decided to flash the latest verison of BLHeli firmware on my Hobbyking BS ESC.", 
+        "img": "http://blog.oscarliang.net/wp-content/uploads/2014/05/flash-12A-blue-series-ESC-simonK-600x450.jpg", 
+        "title": "Flash BLHeli on Blue Series 12A ESC using Arduino", 
+        "url": "http://blog.oscarliang.net/blheli-blue-series-esc-oneshot125-damping-light/", 
+        "site": "http://blog.oscarliang.net", 
+        "published": "2015-03-04T18:23:37.768720", 
+        "categories": "Parts"
+    }, 
+    {
+        "domain": "", 
+        "description": "The hottest thing right now is probably the new feature in Cleanflight \u201cPID controllers\u201d, and \u201cEnabling Oneshot125 on ESC\u201d. We have discussed what the new PID controllers are all about, so what is Oneshot? Along with Oneshot there is also the Active Braking (damping light) feature in BLHeli that help improving the throttle responsiveness.", 
+        "img": "http://blog.oscarliang.net/wp-content/uploads/2015/03/ONESHOT125-ESC-QUADCOPTER-FPV-BLHELI-SIMONK-600x508.jpg", 
+        "title": "What is Oneshot on ESC | BLHeli Firmware \u2013 Active Braking \u2013 Quadcopter", 
+        "url": "http://blog.oscarliang.net/oneshot125-esc-quadcopter-fpv/", 
+        "site": "http://blog.oscarliang.net", 
+        "published": "2015-03-01T18:23:37.768720", 
+        "categories": [
+            "Multicopters", 
+            "Parts"
+        ]
+    }, 
+    {
+        "domain": "", 
+        "description": "Arduino uses FTDI chips to create serial port connection between computer and the chip, so you can program the\u00a0Atmel chip inside the Arduino board, without the need of any ISP programmers.\u00a0If we look at the schematic of Arduino, we will see that the RX and TX pins are connected to the FTDI chip (as we expected) (on Arduino board as pin 0 and pin 1) That means we can use those pins for using the FTDI chip itself.", 
+        "img": "http://blog.oscarliang.net/wp-content/uploads/2014/05/program-minimosd-with-Arduino.jpg", 
+        "title": "3 Ways to Use Arduino as USB Serial Adapter Converter", 
+        "url": "http://blog.oscarliang.net/use-arduino-as-usb-serial-adapter-converter/", 
+        "site": "http://blog.oscarliang.net", 
+        "published": "2015-02-27T18:22:56.104490", 
+        "categories": "Parts"
+    }, 
+    {
+        "domain": "", 
+        "description": "I wrote a very brief post on some of the popular flight controllers not long ago. In this post I will focus on comparing the differences between\u00a0Naze32 and CC3D flight controllers, hopefully can help you to decide which you should get.", 
+        "img": "http://blog.oscarliang.net/wp-content/uploads/2014/12/cc3d-600x596.jpg", 
+        "title": "Naze32 vs CC3D | Flight Controller Difference Comparison", 
+        "url": "http://blog.oscarliang.net/naze32-vs-cc3d-better/", 
+        "site": "http://blog.oscarliang.net", 
+        "published": "2015-02-24T18:22:12.892039", 
+        "categories": [
+            "Multicopters", 
+            "Parts"
+        ]
+    }, 
+    {
+        "domain": "", 
         "description": "\u0422\u0435\u043f\u0435\u0440\u044c \u043d\u0435\u0442 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0441\u0442\u0438 \u043e\u0442\u0441\u043e\u0435\u0434\u0438\u043d\u044f\u0442\u044c \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u044b \u0434\u0440\u043e\u043d\u043e\u0432 \u0434\u043b\u044f \u0438\u0445 \u0437\u0430\u0440\u044f\u0434\u043a\u0438. \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Skysense \u0434\u0435\u043b\u0430\u0435\u0442 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0437\u0430\u0440\u044f\u0436\u0430\u0442\u044c \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440 \u0432\u0430\u0448\u0435\u0433\u043e \u0434\u0440\u043e\u043d\u0430 \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u043e, \u043f\u0440\u043e\u0441\u0442\u043e \u043f\u0440\u0438\u0437\u0435\u043c\u043b\u0438\u0432 \u0435\u0433\u043e \u043d\u0430 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u0443\u044e \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0443. \u042d\u0442\u0438 \u0437\u0430\u0440\u044f\u0434\u043d\u044b\u0435 \u0441\u0442\u0430\u043d\u0446\u0438\u0438 \u0431\u0443\u0434\u0443\u0442 \u0443\u0434\u043e\u0431\u043d\u044b, \u043a\u0430\u043a \u0434\u043b\u044f \u043e\u0431\u044b\u0447\u043d\u044b\u0445 \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u0445 \u043f\u043e\u043b\u0435\u0442\u043e\u0432, \u0442\u0430\u043a \u0438 \u0434\u043b\u044f \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u0430\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u044b\u0445 \u043c\u0438\u0441\u0441\u0438\u0439. \u00a0\u041f\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0437\u0430\u043a\u0430\u0437\u044b \u0443\u0436\u0435 \u043f\u0440\u0438\u043d\u0438\u043c\u0430\u044e\u0442\u0441\u044f\u00a0 \u043d\u0430 \u0441\u0430\u0439\u0442\u0435 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438. \u041e\u0442\u0433\u0440\u0443\u0437\u043a\u0430 \u0437\u0430\u0440\u044f\u0434\u043d\u044b\u0445 \u0441\u0442\u0430\u043d\u0446\u0438\u0439 \u0437\u0430\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0430 \u043d\u0430 \u0444\u0435\u0432\u0440\u0430\u043b\u044c \u044d\u0442\u043e\u0433\u043e \u0433\u043e\u0434\u0430.", 
         "img": "http://droneport.com.ua/wp-content/uploads/2015/02/IMG_0462.jpg", 
         "title": "\u041f\u0435\u0440\u0432\u043e\u0435 \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u043e\u0435 \u0437\u0430\u0440\u044f\u0434\u043d\u043e\u0435 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u0434\u043b\u044f \u0434\u0440\u043e\u043d\u043e\u0432 \u043e\u0442 Skysense", 
         "url": "http://droneport.com.ua/?p=555", 
-        "published": "2015-02-20T17:56:55.372626", 
         "site": "http://droneport.com.ua", 
+        "published": "2015-02-20T17:56:55.372626", 
         "categories": [
             "Multicopters", 
             "Parts", 
