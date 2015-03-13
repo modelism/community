@@ -62,7 +62,7 @@ if len(pub)>0:
 else:
 	pub = now_date.isoformat()
 
-print "Categories: 'Aircraftflite', 'Helicopters', 'Multicopters', 'Parts', 'Video'"
+print "Categories: 'Aircraftflite', 'Helicopters', 'Multicopters', 'Parts', 'Video', 'Transmitters'"
 cat = input("Enter a categories: ")
 
 print cat
