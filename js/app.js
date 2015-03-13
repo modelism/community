@@ -23,8 +23,8 @@ App.controller("NewsListM", function($scope, $http, $filter) {
             if ($scope.numberOfPages<($scope.curPage+1)){
                 $scope.curPage = 0;
             };
-            items = $filter('pagination')(items, $scope.curPage*$scope.pageSize);
             items = $filter('orderBy')(items, '-published');
+            items = $filter('pagination')(items, $scope.curPage*$scope.pageSize);
             items = $filter('limitTo')(items, $scope.pageSize);
             return items;
         };
