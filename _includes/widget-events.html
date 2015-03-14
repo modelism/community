@@ -7,7 +7,7 @@
         <img itemprop="image" src="{{ post.image }}" alt="{{ post.title }}">
       </div>
     {% endif %}
-    <h4 itemprop="name" class="post-title">{{ post.title }}</h4>
+    <h4 class="post-title"><a href="{{ post.url | prepend: site.url }}" title="{{ post.title }}" itemprop="name">{{ post.title }}</a></h4>
     <p>
       Дата початку: <strong itemprop="startDate" content="{{ post.event_starts | date_to_xmlschema }}">{{ post.event_starts | date_to_long_string }}</strong><br />
       Дата завершення: <strong itemprop="endDate" content="{{ post.event_ends | date_to_xmlschema }}">{{ post.event_ends | date_to_long_string }}</strong>
