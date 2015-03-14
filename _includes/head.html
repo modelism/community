@@ -30,10 +30,39 @@
 
     <script type="application/ld+json">
         {
-          "@context": "http://schema.org",
-          "@type": "Organization",
-          "url": "http://modelism.github.io",
-          "logo": "http://modelism.github.io/images/logo.png"
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "event": [
+                {% for post in site.posts limit:4 %}
+                    {% if post.categories contains 'events' %}
+                        {
+                            "@context" : "http://schema.org",
+                            "@type" : "Event",
+                            "name" : "{{ post.title }}",
+                            "startDate" : "{{ post.event_ends | date_to_xmlschema }}",
+                            "location" : {
+                                "@type" : "Place",
+                                "address" : {
+                                    "@type" : "PostalAddress",
+                                    "addressCountry" : "{% if post.event_location_country %}{{ post.event_location_country }}{% endif %}",
+                                    "addressLocality" : "{% if post.event_location_city %}{{ post.event_location_city }}{% endif %}",
+                                    "streetAddress" : "{% if post.event_location_street %}{{ post.event_location_street }}{% endif %}"
+                                    },
+                                "name" : "{{ post.organization }}"
+                            }
+                        },
+                    {% endif %}
+                {% endfor %}
+                {
+                    "@context" : "http://schema.org",
+                    "@type" : "Event",
+                    "name" : "Старт роботи сайту спільноти моделістів",
+                    "startDate" : "2015-01-01T10:00:00+02:00",
+                }
+            ],
+            "name": "Cпільнота моделістів"
+            "url": "http://modelism.github.io",
+            "logo": "http://modelism.github.io/images/logo.png"
         }
     </script>
 
