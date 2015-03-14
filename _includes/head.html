@@ -48,7 +48,7 @@
                                     "addressLocality" : "{% if post.event_location_city %}{{ post.event_location_city }}{% endif %}",
                                     "streetAddress" : "{% if post.event_location_street %}{{ post.event_location_street }}{% endif %}"
                                     },
-                                "name" : "{{ post.organization }}"
+                                "name" : "{{ post.event_location_name }}"
                             }
                         },
                     {% endif %}
