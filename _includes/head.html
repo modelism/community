@@ -33,7 +33,7 @@
             "@context": "http://schema.org",
             "@type": "Organization",
             "event": [
-                {% for post in site.posts limit:4 %}
+                {% for post in site.posts limit:5 %}
                     {% if post.categories contains 'events' %}
                         {
                             "@context" : "http://schema.org",
