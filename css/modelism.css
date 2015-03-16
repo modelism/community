@@ -17,6 +17,9 @@
     border-top: 1px solid #e7e7e7;
     padding: 2em 0 2.5em;
     }
+.input-group {
+    width:100%;
+    }
 
 /* Global Navigation */
 #header .navbar-nav li a:hover {
