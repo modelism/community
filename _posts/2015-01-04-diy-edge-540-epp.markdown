@@ -10,6 +10,7 @@ image: /images/bg-aircraft.jpg
 
 <section class="downloads">
   <a class="zip_download_link" href="https://github.com/modelism/diy.aircraft.edge_540_epp/zipball/master">Завантажити креслення літака 'EDGE 540 EPP' у .zip file</a>
+  
   <a class="tar_download_link" href="https://github.com/modelism/diy.aircraft.edge_540_epp/tarball/master">Завантажити креслення літака 'EDGE 540 EPP' у tar.gz file</a>
 </section>
 
