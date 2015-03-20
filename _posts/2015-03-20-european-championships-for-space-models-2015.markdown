@@ -15,7 +15,7 @@ contact_name: "Олеся Гаренко"
 contact_e-mail: "info@frms.ua"
 contact_phone: "+38-067-188-9996"
 event_register: "Детальніша інформація на сайті події - http://eurocket2015.frms.ua/"
-image: http://4.bp.blogspot.com/-Yvk-6ZfR-zo/VQxk8tMNh0I/AAAAAAAAEDc/DLywLp31FWI/s1600/logo-european-championships-for-space-models-2015.png
+image: http://3.bp.blogspot.com/-drE9TvUwpi4/VQxpVCTJzII/AAAAAAAAEDs/XzE_7jbL3Lo/s1600/logo-european-championships-for-space-models-2015.png
 categories: events
 status: published
 priority: 0.7
