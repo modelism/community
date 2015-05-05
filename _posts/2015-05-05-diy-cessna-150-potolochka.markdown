@@ -5,5 +5,5 @@ description: "Пропонуємо Вам до виготовлення свої
 date:   2015-05-05 07:20:34
 status: published
 categories: diy
-image: http://upload.wikimedia.org/wikipedia/commons/4/48/Cessna.fa150k.g-aycf.arp.jpg
+image: /images/diy/aircraft-cessna-150.jpg
 ---
