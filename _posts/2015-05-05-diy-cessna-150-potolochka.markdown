@@ -9,7 +9,7 @@ image: /images/diy/aircraft-cessna-150.jpg
 ---
 Авіамодель **Cessna 150** поєднує в собі простоту виготовлення і хороші льотні якості. Саме це поєднання робить **Цессну** найбільш оптимальною радіокерованою авіамоделью для тих, хто бажає почати літати.
 
-## Відео інструкція по виготовленюю Cessna 150
+### Відео інструкція по виготовленюю Cessna 150
 <div role="tabpanel">
   <!-- Nav tabs -->
   <ul id="cessna-video-tab" class="nav nav-tabs" role="tablist">
@@ -28,16 +28,30 @@ image: /images/diy/aircraft-cessna-150.jpg
   </ul>
   <!-- Tab panes -->
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="cessna-video-p1">
+    <div role="tabpanel" class="tab-pane fade in active" id="cessna-video-p1">
       <p>У цьому відео розповідається про те, які інструменти знадобляться, які матеріали використовувати і як виготовити фюзеляж авіамоделі.</p>
-      <!-- 16:9 aspect ratio -->
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FCAkQ1t9eLI" allowfullscreen></iframe>
       </div>
     </div>
-    <div role="tabpanel" class="tab-pane" id="cessna-video-p2">2...</div>
-    <div role="tabpanel" class="tab-pane" id="cessna-video-p3">3...</div>
-    <div role="tabpanel" class="tab-pane" id="cessna-video-p4">4...</div>
+    <div role="tabpanel" class="tab-pane fade" id="cessna-video-p2">
+      <p>На відео показано, як виготовити крило для авіамоделі.</p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/G-s0RbG1rBU" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="cessna-video-p3">
+      <p>У цій частині відеоінструкції виготовляється зміцнення кріплення крила і дається приклад встановлення сервомашинки.</p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dcFQs7t4iXY" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="cessna-video-p4">
+      <p>У цій частині вклеюємо виготовлене в минулій частині зміцнення крила і пояснюється як обклеїти фюзеляж авіамоделі скотчем.</p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SWH0fTljTHk" allowfullscreen></iframe>
+      </div>    
+    </div>
   </div>
 </div>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
