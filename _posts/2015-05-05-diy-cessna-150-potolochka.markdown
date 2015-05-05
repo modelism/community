@@ -7,6 +7,9 @@ status: published
 categories: diy
 image: /images/diy/aircraft-cessna-150.jpg
 ---
+Авіамодель **Cessna 150** поєднує в собі простоту виготовлення і хороші льотні якості. Саме це поєднання робить **Цессну** найбільш оптимальною радіокерованою авіамоделью для тих, хто бажає почати літати.
+
+## Відео інструкція по виготовленюю Cessna 150
 <div role="tabpanel">
   <!-- Nav tabs -->
   <ul id="cessna-video-tab" class="nav nav-tabs" role="tablist">
@@ -25,7 +28,13 @@ image: /images/diy/aircraft-cessna-150.jpg
   </ul>
   <!-- Tab panes -->
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="cessna-video-p1">1...</div>
+    <div role="tabpanel" class="tab-pane active" id="cessna-video-p1">
+      <p>У цьому відео розповідається про те, які інструменти знадобляться, які матеріали використовувати і як виготовити фюзеляж авіамоделі.</p>
+      <!-- 16:9 aspect ratio -->
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FCAkQ1t9eLI" allowfullscreen></iframe>
+      </div>
+    </div>
     <div role="tabpanel" class="tab-pane" id="cessna-video-p2">2...</div>
     <div role="tabpanel" class="tab-pane" id="cessna-video-p3">3...</div>
     <div role="tabpanel" class="tab-pane" id="cessna-video-p4">4...</div>
