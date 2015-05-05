@@ -42,56 +42,35 @@ image: /images/diy/aircraft-cessna-150.jpg
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane fade in active" id="cessna-video-p1">
       <p>У цьому відео розповідається про те, які інструменти знадобляться, які матеріали використовувати і як виготовити фюзеляж авіамоделі.</p>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FCAkQ1t9eLI" allowfullscreen></iframe>
-      </div>
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/FCAkQ1t9eLI" frameborder="0" allowfullscreen></iframe>
-
-      
-      
+      <iframe width="640" height="480" src="https://www.youtube.com/embed/FCAkQ1t9eLI" frameborder="0" allowfullscreen></iframe>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="cessna-video-p2">
       <p>На відео показано, як виготовити крило для авіамоделі.</p>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/G-s0RbG1rBU" allowfullscreen></iframe>
-      </div>
+      <iframe width="640" height="480" src="https://www.youtube.com/embed/G-s0RbG1rBU" frameborder="0" allowfullscreen></iframe>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="cessna-video-p3">
       <p>У цій частині відеоінструкції виготовляється зміцнення кріплення крила і дається приклад встановлення сервомашинки.</p>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dcFQs7t4iXY" allowfullscreen></iframe>
-      </div>
+      <iframe width="640" height="480" src="https://www.youtube.com/embed/dcFQs7t4iXY" frameborder="0" allowfullscreen></iframe>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="cessna-video-p4">
       <p>У цій частині вклеюємо виготовлене в минулій частині зміцнення крила і пояснюється як обклеїти фюзеляж авіамоделі скотчем.</p>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SWH0fTljTHk" allowfullscreen></iframe>
-      </div>    
+      <iframe width="640" height="480" src="https://www.youtube.com/embed/SWH0fTljTHk" frameborder="0" allowfullscreen></iframe>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="cessna-video-p5">
       <p>Виготовлення хвоста, встановлення його в фюзеляж, і встановлення сервомашинок на елерони.</p>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JMSd0_AkbXY" allowfullscreen></iframe>
-      </div>    
+      <iframe width="640" height="480" src="https://www.youtube.com/embed/JMSd0_AkbXY" frameborder="0" allowfullscreen></iframe>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="cessna-video-p6">
       <p>Виготовлення елеронів і обклеювання крила авіамоделі скотчем.</p>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L2R8VsoQ2Fs" allowfullscreen></iframe>
-      </div>
+      <iframe width="640" height="480" src="https://www.youtube.com/embed/L2R8VsoQ2Fs" frameborder="0" allowfullscreen></iframe>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="cessna-video-p7">
       <p>Встановлення тяг для рульових поверхонь хвоста, виготовлення та встановлення шасі, кріплення двигуна.</p>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LSX1T6X-6Yo" allowfullscreen></iframe>
-      </div>    
+      <iframe width="640" height="480" src="https://www.youtube.com/embed/LSX1T6X-6Yo" frameborder="0" allowfullscreen></iframe>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="cessna-video-p8">
       <p>Заключна частина з виготовлення радіокерованої авіамоделі Cessna 150. У цій частині проводиться обліт авіамоделі і даються поради щодо комплектації авіамоделі електронікою.</p>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/x-mv4yXZWpM" allowfullscreen></iframe>
-      </div>    
+      <iframe width="640" height="480" src="https://www.youtube.com/embed/x-mv4yXZWpM" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 </div>
