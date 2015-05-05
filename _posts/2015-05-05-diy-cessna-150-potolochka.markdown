@@ -32,8 +32,10 @@ image: /images/diy/aircraft-cessna-150.jpg
   </div>
 </div>
 <script>
+$(function(){
   $('#cessna-video-tab a').click(function(e) {
     e.preventDefault()
     $(this).tab('show')
   })
+})
 </script>
