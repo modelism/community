@@ -25,6 +25,9 @@
 #header .navbar-nav li a:hover {
     background-color: #e7e7e7;
     }
+.nav-tabs > li.active > a {
+    outline: none;
+    }
 
 /* Logo */
 #header .navbar-brand > img {
