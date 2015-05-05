@@ -46,10 +46,8 @@ image: /images/diy/aircraft-cessna-150.jpg
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FCAkQ1t9eLI" allowfullscreen></iframe>
       </div>
 
-<!-- 4:3 aspect ratio -->
-<div class="embed-responsive embed-responsive-4by3">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FCAkQ1t9eLI"></iframe>
-</div>      
+<iframe width="640" height="480" src="https://www.youtube.com/embed/FCAkQ1t9eLI" frameborder="0" allowfullscreen></iframe>
+
       
       
     </div>
