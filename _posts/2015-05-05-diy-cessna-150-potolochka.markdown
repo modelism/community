@@ -26,16 +26,16 @@ image: /images/diy/aircraft-cessna-150.jpg
       <a href="#cessna-video-p4" aria-controls="cessna-video-p4" role="tab" data-toggle="tab">Частина 4</a>
     </li>
     <li role="presentation">
-      <a href="#cessna-video-p4" aria-controls="cessna-video-p5" role="tab" data-toggle="tab">Частина 5</a>
+      <a href="#cessna-video-p5" aria-controls="cessna-video-p5" role="tab" data-toggle="tab">Частина 5</a>
     </li>
     <li role="presentation">
-      <a href="#cessna-video-p4" aria-controls="cessna-video-p6" role="tab" data-toggle="tab">Частина 6</a>
+      <a href="#cessna-video-p6" aria-controls="cessna-video-p6" role="tab" data-toggle="tab">Частина 6</a>
     </li>
     <li role="presentation">
-      <a href="#cessna-video-p4" aria-controls="cessna-video-p7" role="tab" data-toggle="tab">Частина 7</a>
+      <a href="#cessna-video-p7" aria-controls="cessna-video-p7" role="tab" data-toggle="tab">Частина 7</a>
     </li>
       <li role="presentation">
-      <a href="#cessna-video-p4" aria-controls="cessna-video-p8" role="tab" data-toggle="tab">Частина 8</a>
+      <a href="#cessna-video-p8" aria-controls="cessna-video-p8" role="tab" data-toggle="tab">Частина 8</a>
     </li>
   </ul>
   <!-- Tab panes -->
