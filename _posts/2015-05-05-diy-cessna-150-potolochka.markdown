@@ -25,6 +25,18 @@ image: /images/diy/aircraft-cessna-150.jpg
     <li role="presentation">
       <a href="#cessna-video-p4" aria-controls="cessna-video-p4" role="tab" data-toggle="tab">Частина 4</a>
     </li>
+    <li role="presentation">
+      <a href="#cessna-video-p4" aria-controls="cessna-video-p5" role="tab" data-toggle="tab">Частина 5</a>
+    </li>
+    <li role="presentation">
+      <a href="#cessna-video-p4" aria-controls="cessna-video-p6" role="tab" data-toggle="tab">Частина 6</a>
+    </li>
+    <li role="presentation">
+      <a href="#cessna-video-p4" aria-controls="cessna-video-p7" role="tab" data-toggle="tab">Частина 7</a>
+    </li>
+      <li role="presentation">
+      <a href="#cessna-video-p4" aria-controls="cessna-video-p8" role="tab" data-toggle="tab">Частина 8</a>
+    </li>
   </ul>
   <!-- Tab panes -->
   <div class="tab-content">
@@ -50,6 +62,30 @@ image: /images/diy/aircraft-cessna-150.jpg
       <p>У цій частині вклеюємо виготовлене в минулій частині зміцнення крила і пояснюється як обклеїти фюзеляж авіамоделі скотчем.</p>
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SWH0fTljTHk" allowfullscreen></iframe>
+      </div>    
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="cessna-video-p5">
+      <p>Виготовлення хвоста, встановлення його в фюзеляж, і встановлення сервомашинок на елерони.</p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JMSd0_AkbXY" allowfullscreen></iframe>
+      </div>    
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="cessna-video-p6">
+      <p>Виготовлення елеронів і обклеювання крила авіамоделі скотчем.</p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L2R8VsoQ2Fs" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="cessna-video-p7">
+      <p>Встановлення тяг для рульових поверхонь хвоста, виготовлення та встановлення шасі, кріплення двигуна.</p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LSX1T6X-6Yo" allowfullscreen></iframe>
+      </div>    
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="cessna-video-p8">
+      <p>Заключна частина з виготовлення радіокерованої авіамоделі Cessna 150. У цій частині проводиться обліт авіамоделі і даються поради щодо комплектації авіамоделі електронікою.</p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/x-mv4yXZWpM" allowfullscreen></iframe>
       </div>    
     </div>
   </div>
