@@ -21,6 +21,10 @@
     width:100%;
     }
 
+#cessna-video-tab {
+    margin-bottom: 1.5em;
+    }
+
 /* Global Navigation */
 #header .navbar-nav li a:hover {
     background-color: #e7e7e7;
