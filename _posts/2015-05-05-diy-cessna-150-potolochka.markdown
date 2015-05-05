@@ -9,7 +9,7 @@ image: /images/diy/aircraft-cessna-150.jpg
 ---
 <div role="tabpanel">
   <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
+  <ul id="cessna-video-tab" class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active">
       <a href="#cessna-video-p1" aria-controls="cessna-video-p1" role="tab" data-toggle="tab">Частина 1</a>
     </li>
@@ -31,3 +31,9 @@ image: /images/diy/aircraft-cessna-150.jpg
     <div role="tabpanel" class="tab-pane" id="cessna-video-p4">4...</div>
   </div>
 </div>
+<script>
+  $('#cessna-video-tab a').click(function(e) {
+    e.preventDefault()
+    $(this).tab('show')
+  })
+</script>
