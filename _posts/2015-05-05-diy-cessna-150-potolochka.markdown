@@ -31,6 +31,7 @@ image: /images/diy/aircraft-cessna-150.jpg
     <div role="tabpanel" class="tab-pane" id="cessna-video-p4">4...</div>
   </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
 $(function(){
   $('#cessna-video-tab a').click(function(e) {
@@ -39,4 +40,3 @@ $(function(){
   })
 })
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
