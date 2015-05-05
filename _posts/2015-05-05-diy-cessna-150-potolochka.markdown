@@ -45,6 +45,10 @@ image: /images/diy/aircraft-cessna-150.jpg
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FCAkQ1t9eLI" allowfullscreen></iframe>
       </div>
+      
+      test
+      <iframe width="420" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/FCAkQ1t9eLI" allowfullscreen></iframe>
+      
     </div>
     <div role="tabpanel" class="tab-pane fade" id="cessna-video-p2">
       <p>На відео показано, як виготовити крило для авіамоделі.</p>
