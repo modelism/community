@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<div class="post-diy-header" style="min-height:350px;background:rgba(0,0,0,0.1);">
+<div class="container" style="min-height:350px;background:url({{ page.img-title | prepend: site.url }}) no-repeat 100% 0;padding-bottom:1.5em;">
+  <h1 class="post-title" style="font-size:42px;width:45%;min-height:250px;"><span style="display:inline-block;min-height:250px;vertical-align:middle;"></span><span style="display:inline-block;vertical-align:middle;">{{ page.title }}</span></h1>
+
+  <div class="post-model-info">
+    {% if page.model_type_motor %}
+      <div class="post-model-info-item"><h4>Тип двигуна</h4> {{ page.model_type_motor }}</div>
+    {% endif %}
+    {% if page.model_wingspan %}
+      <div class="post-model-info-item"><h4>Розмах крил</h4> {{ page.model_wingspan }}</div>
+    {% endif %}
+    {% if page.model_length %}
+      <div class="post-model-info-item"><h4>Довжина </h4> {{ page.model_length }}</div>
+    {% endif %}
+    {% if page.model_weight %}
+      <div class="post-model-info-item"><h4>Вага</h4> {{ page.model_weight }}</div>
+    {% endif %}
+    {% if page.model_material %}
+      <div class="post-model-info-item"><h4>Матеріал</h4> {{ page.model_material }}</div>
+    {% endif %}
+  </div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-9">
+  <div class="post">
+    <!-- <div class="post-header"> -->
+      <!-- <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p> -->
+    <!-- </div> -->
+    <article class="post-content"><br />
+      {{ content }}
+    </article>
+    <!-- <div class="addthis_sharing_toolbox"></div> -->
+  </div>
+</div>
+<div class="col-md-3">
+  {% include blocknews.html %}
+  {% include widget-events.html %}
+</div>
+</div>
+</div>

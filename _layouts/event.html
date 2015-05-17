@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<div class="container">
 <div itemscope itemtype="http://schema.org/Event" class="row event-item">
 <div class="col-md-9">
   <div class="post">
@@ -25,7 +26,7 @@ layout: default
       Дата:
     </h3>
     <p>
-      Дата початку: 
+      Дата початку:
       <strong itemprop="startDate" content="{{ page.event_starts | date_to_xmlschema }}">
         {% assign m = page.event_starts | date: "%-m" %}
         {{ page.event_starts | date: "%-d" }}
@@ -43,9 +44,9 @@ layout: default
           {% when '11' %}лист.
           {% when '12' %}груд.
         {% endcase %}
-        {{ page.event_starts | date: "%Y" }}, o {{ page.event_starts | date: "%H:%M" }}    
+        {{ page.event_starts | date: "%Y" }}, o {{ page.event_starts | date: "%H:%M" }}
       </strong><br />
-      Дата завершення: 
+      Дата завершення:
       <strong itemprop="endDate" content="{{ page.event_ends | date_to_xmlschema }}">
         {% assign m = page.event_ends | date: "%-m" %}
         {{ page.event_ends | date: "%-d" }}
@@ -116,7 +117,7 @@ layout: default
         <a href="{{ page.event_url }}" title="{{ page.title }}" target="_blank">{{ page.event_url }}</a>
       {% endif %}
     </p>
-    
+
     {% if page.event_register %}
       <h3>
         <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
@@ -124,5 +125,6 @@ layout: default
       </h3>
       <p>{{ page.event_register }}</p>
     {% endif %}
+</div>
 </div>
 </div>

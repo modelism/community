@@ -148,3 +148,29 @@
     margin: 0;
     padding: 0 1em;
     }
+
+/* Post - Diy */
+.post-model-info {
+    display: table;
+    width: 57%;
+    }
+.post-model-info-item {
+    display: table-cell;
+    padding: 0 8px 5px;
+    text-align: center;
+    border-right: 1px solid rgba(0,0,0,0.2);
+    }
+.post-model-info-item:first-child {
+    padding: 0 8px 0 0;
+    }
+.post-model-info-item:last-child {
+    border: 0;
+    }
+.post-model-info-item h4 {
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.cessna-150-diy {
+    margin-bottom: 1.5em;
+}
