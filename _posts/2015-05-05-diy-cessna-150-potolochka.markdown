@@ -22,7 +22,7 @@ img-title: /images/diy/aircraft-cessna-150-header.png
 
 Авіамодель **Цессна 150** виходить досить стійкою в польоті, з хорошими плануючими здібностями і може використовуватися не тільки як перша авіамодель зроблена власними руками, але і як авіамодель для спокійних польотів.
 
-### Для виготовлення авіамоделлі Cessna 150 вам потрібно
+#### Для виготовлення авіамоделлі Cessna 150 вам потрібно
 
 * 4 листа стельової плитки (потолочка);
 * Лінійка;
@@ -33,7 +33,7 @@ img-title: /images/diy/aircraft-cessna-150-header.png
 * Скотч;
 * Двосторонній скотч.
 
-### Варіанти електроніки для авіамоделі Cessna 150
+#### Варіанти електроніки для авіамоделі Cessna 150
 
 * Електромотор 2205C 1400Kv Brushless motor - працює з 2S (8х6,9х4.7) і 3S (7х6,8х4,8х6) батареєю;
 * 4 серви Turnigy TG9e 9g / 1.5kg / 0.10sec Eco Micro Servo;
@@ -41,7 +41,7 @@ img-title: /images/diy/aircraft-cessna-150-header.png
 * Батарея ZIPPY Flightmax 1000mAh 2S1P 20C;
 * Повітряний гвинт GWS 8x6 або 9х4.7.
 
-### Відео інструкція по виготовленюю Cessna 150
+#### Відео інструкція по виготовленюю Cessna 150
 
 Пропонуємо Вам добірку відео з виготовлення тренера верхньоплана - Cessna 150
 
@@ -323,4 +323,4 @@ img-title: /images/diy/aircraft-cessna-150-header.png
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script type="text/javascript" src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 
-### Корисні лінки
+#### Корисні лінки
