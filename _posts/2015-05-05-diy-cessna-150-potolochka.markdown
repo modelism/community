@@ -46,7 +46,7 @@ img-title: /images/diy/aircraft-cessna-150-header.png
 Пропонуємо Вам добірку відео з виготовлення тренера верхньоплана - Cessna 150
 
 <div class="row cessna-150-diy">
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
       <img alt="Виготовлення Cessna 150 - відео частина 1" src="http://img.youtube.com/vi/FCAkQ1t9eLI/0.jpg">
     </div>
@@ -81,7 +81,7 @@ img-title: /images/diy/aircraft-cessna-150-header.png
         </div>
     </div>
   </div>
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
       <img alt="Виготовлення Cessna 150 - відео частина 2" src="http://img.youtube.com/vi/G-s0RbG1rBU/0.jpg">
     </div>
@@ -114,7 +114,7 @@ img-title: /images/diy/aircraft-cessna-150-header.png
       </div>
     </div>
   </div>
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
       <img alt="Виготовлення Cessna 150 - відео частина 3" src="http://img.youtube.com/vi/dcFQs7t4iXY/0.jpg">
     </div>
@@ -147,9 +147,7 @@ img-title: /images/diy/aircraft-cessna-150-header.png
       </div>
     </div>
   </div>
-</div>
-<div class="row cessna-150-diy">
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
       <img alt="Виготовлення Cessna 150 - відео частина 4" src="http://img.youtube.com/vi/SWH0fTljTHk/0.jpg">
     </div>
@@ -184,7 +182,9 @@ img-title: /images/diy/aircraft-cessna-150-header.png
         </div>
     </div>
   </div>
-  <div class="col-sm-6 col-md-4">
+</div>
+<div class="row cessna-150-diy">
+  <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
       <img alt="Виготовлення Cessna 150 - відео частина 5" src="http://img.youtube.com/vi/JMSd0_AkbXY/0.jpg">
     </div>
@@ -217,7 +217,7 @@ img-title: /images/diy/aircraft-cessna-150-header.png
       </div>
     </div>
   </div>
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
       <img alt="Виготовлення Cessna 150 - відео частина 6" src="http://img.youtube.com/vi/L2R8VsoQ2Fs/0.jpg">
     </div>
@@ -250,9 +250,7 @@ img-title: /images/diy/aircraft-cessna-150-header.png
       </div>
     </div>
   </div>
-</div>
-<div class="row cessna-150-diy">
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
       <img alt="Виготовлення Cessna 150 - відео частина 7" src="http://img.youtube.com/vi/LSX1T6X-6Yo/0.jpg">
     </div>
@@ -287,7 +285,7 @@ img-title: /images/diy/aircraft-cessna-150-header.png
         </div>
     </div>
   </div>
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
       <img alt="Виготовлення Cessna 150 - відео частина 8" src="http://img.youtube.com/vi/x-mv4yXZWpM/0.jpg">
     </div>
