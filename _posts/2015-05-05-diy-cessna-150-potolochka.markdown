@@ -51,11 +51,11 @@ img-title: /images/diy/aircraft-cessna-150-header.png
       <img alt="Виготовлення Cessna 150 - відео частина 1" src="http://img.youtube.com/vi/FCAkQ1t9eLI/0.jpg">
     </div>
     <div class="caption">
-        <h3 class="title">
+        <h4 class="title">
           <a title="Виготовлення Cessna 150 - відео частина 1" data-toggle="modal" data-target="#cessna-video-p1" href="https://youtu.be/FCAkQ1t9eLI">
             Частина 1
           </a>
-        </h3>
+        </h4>
         <p>У цьому відео розповідається про те, які інструменти знадобляться, які матеріали використовувати і як виготовити фюзеляж авіамоделі.</p>
         <a href="https://youtu.be/FCAkQ1t9eLI" data-toggle="modal" data-target="#cessna-video-p1" class="btn btn-primary">Переглянути...</a>
 
@@ -86,9 +86,9 @@ img-title: /images/diy/aircraft-cessna-150-header.png
       <img alt="Виготовлення Cessna 150 - відео частина 2" src="http://img.youtube.com/vi/G-s0RbG1rBU/0.jpg">
     </div>
     <div class="caption">
-      <h3 class="title">
+      <h4 class="title">
         <a title="Виготовлення Cessna 150 - відео частина 2" data-toggle="modal" data-target="#cessna-video-p2" href="https://youtu.be/G-s0RbG1rBU">Частина 2</a>
-      </h3>
+      </h4>
       <p>На відео показано, як виготовити крило для авіамоделі.</p>
       <a href="https://youtu.be/G-s0RbG1rBU" data-toggle="modal" data-target="#cessna-video-p2" class="btn btn-primary">Переглянути...</a>
 
@@ -119,9 +119,9 @@ img-title: /images/diy/aircraft-cessna-150-header.png
       <img alt="Виготовлення Cessna 150 - відео частина 3" src="http://img.youtube.com/vi/dcFQs7t4iXY/0.jpg">
     </div>
     <div class="caption">
-      <h3 class="title">
+      <h4 class="title">
         <a title="Виготовлення Cessna 150 - відео частина 3" data-toggle="modal" data-target="#cessna-video-p3" href="https://youtu.be/dcFQs7t4iXY">Частина 3</a>
-      </h3>
+      </h4>
       <p>У цій частині відеоінструкції виготовляється зміцнення кріплення крила і дається приклад встановлення сервомашинки.</p>
       <a href="https://youtu.be/dcFQs7t4iXY" data-toggle="modal" data-target="#cessna-video-p3" class="btn btn-primary">Переглянути...</a>
 
@@ -152,11 +152,11 @@ img-title: /images/diy/aircraft-cessna-150-header.png
       <img alt="Виготовлення Cessna 150 - відео частина 4" src="http://img.youtube.com/vi/SWH0fTljTHk/0.jpg">
     </div>
     <div class="caption">
-        <h3 class="title">
+        <h4 class="title">
           <a title="Виготовлення Cessna 150 - відео частина 4" data-toggle="modal" data-target="#cessna-video-p4" href="https://youtu.be/SWH0fTljTHk">
             Частина 4
           </a>
-        </h3>
+        </h4>
         <p>У цій частині вклеюємо виготовлене в минулій частині зміцнення крила і пояснюється як обклеїти фюзеляж авіамоделі скотчем.</p>
         <a href="https://youtu.be/SWH0fTljTHk" data-toggle="modal" data-target="#cessna-video-p4" class="btn btn-primary">Переглянути...</a>
 
@@ -189,9 +189,9 @@ img-title: /images/diy/aircraft-cessna-150-header.png
       <img alt="Виготовлення Cessna 150 - відео частина 5" src="http://img.youtube.com/vi/JMSd0_AkbXY/0.jpg">
     </div>
     <div class="caption">
-      <h3 class="title">
+      <h4 class="title">
         <a title="Виготовлення Cessna 150 - відео частина 5" data-toggle="modal" data-target="#cessna-video-p5" href="https://youtu.be/JMSd0_AkbXY">Частина 5</a>
-      </h3>
+      </h4>
       <p>Виготовлення хвоста, встановлення його в фюзеляж, і встановлення сервомашинок на елерони.</p>
       <a href="https://youtu.be/JMSd0_AkbXY" data-toggle="modal" data-target="#cessna-video-p5" class="btn btn-primary">Переглянути...</a>
 
@@ -222,9 +222,9 @@ img-title: /images/diy/aircraft-cessna-150-header.png
       <img alt="Виготовлення Cessna 150 - відео частина 6" src="http://img.youtube.com/vi/L2R8VsoQ2Fs/0.jpg">
     </div>
     <div class="caption">
-      <h3 class="title">
+      <h4 class="title">
         <a title="Виготовлення Cessna 150 - відео частина 6" data-toggle="modal" data-target="#cessna-video-p6" href="https://youtu.be/L2R8VsoQ2Fs">Частина 6</a>
-      </h3>
+      </h4>
       <p>Виготовлення елеронів і обклеювання крила авіамоделі скотчем.</p>
       <a href="https://youtu.be/L2R8VsoQ2Fs" data-toggle="modal" data-target="#cessna-video-p6" class="btn btn-primary">Переглянути...</a>
 
@@ -255,11 +255,11 @@ img-title: /images/diy/aircraft-cessna-150-header.png
       <img alt="Виготовлення Cessna 150 - відео частина 7" src="http://img.youtube.com/vi/LSX1T6X-6Yo/0.jpg">
     </div>
     <div class="caption">
-        <h3 class="title">
+        <h4 class="title">
           <a title="Виготовлення Cessna 150 - відео частина 7" data-toggle="modal" data-target="#cessna-video-p7" href="https://youtu.be/LSX1T6X-6Yo">
             Частина 7
           </a>
-        </h3>
+        </h4>
         <p>Встановлення тяг для рульових поверхонь хвоста, виготовлення та встановлення шасі, кріплення двигуна.</p>
         <a href="https://youtu.be/LSX1T6X-6Yo" data-toggle="modal" data-target="#cessna-video-p7" class="btn btn-primary">Переглянути...</a>
 
@@ -290,9 +290,9 @@ img-title: /images/diy/aircraft-cessna-150-header.png
       <img alt="Виготовлення Cessna 150 - відео частина 8" src="http://img.youtube.com/vi/x-mv4yXZWpM/0.jpg">
     </div>
     <div class="caption">
-      <h3 class="title">
+      <h4 class="title">
         <a title="Виготовлення Cessna 150 - відео частина 8" data-toggle="modal" data-target="#cessna-video-p8" href="https://youtu.be/x-mv4yXZWpM">Частина 8</a>
-      </h3>
+      </h4>
       <p>Заключна частина з виготовлення радіокерованої авіамоделі Cessna 150. У цій частині проводиться обліт авіамоделі і даються поради щодо комплектації авіамоделі електронікою.</p>
       <a href="https://youtu.be/x-mv4yXZWpM" data-toggle="modal" data-target="#cessna-video-p8" class="btn btn-primary">Переглянути...</a>
 
